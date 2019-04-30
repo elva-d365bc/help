@@ -1,0 +1,440 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/STDB/EB-LV-D365BC14/Docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/base_and_invoices/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/base_and_invoices/overview.html",
+          "hash": "DZ3fYb4RECkuqeu0iqgXhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "articles/base_and_invoices/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/base_and_invoices/toc.html",
+          "hash": "3Bp90PSTTVeUFtS6BsKzvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/cash_management/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/cash_management/overview.html",
+          "hash": "Q88GgvTcYdgXmB+5vdHl1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "articles/cash_management/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/cash_management/toc.html",
+          "hash": "3Bp90PSTTVeUFtS6BsKzvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intrastat/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intrastat/overview.html",
+          "hash": "gS32dveIlRFarW0P7EgaLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "articles/intrastat/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intrastat/toc.html",
+          "hash": "PWPPYNkGbAeYEocfihN31Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/latvian_language/faq.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/latvian_language/faq.html",
+          "hash": "VjKrcxdgRt7tZhrNlaDYhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/latvian_language/images/Use_001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/latvian_language/images/Use_001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/latvian_language/images/Use_002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/latvian_language/images/Use_002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/latvian_language/images/Use_003.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/latvian_language/images/Use_003.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/latvian_language/images/Use_004.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/latvian_language/images/Use_004.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/latvian_language/images/availiable_languages.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/latvian_language/images/availiable_languages.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/latvian_language/images/edit_my_settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/latvian_language/images/edit_my_settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/latvian_language/images/save_my_settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/latvian_language/images/save_my_settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/latvian_language/images/select_my_settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/latvian_language/images/select_my_settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/latvian_language/latvian_language.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/latvian_language/latvian_language.html",
+          "hash": "WwPinqV76rwo7dY3LmBdZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/latvian_language/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/latvian_language/overview.html",
+          "hash": "cs2HWMozsMtOOF/CmcbeBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/latvian_language/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/latvian_language/toc.html",
+          "hash": "DXrMnhMaJ2iOHS1X4AVXxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/latvian_language/usage_scenarios.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/latvian_language/usage_scenarios.html",
+          "hash": "pE0vppRvfRcCQXKBksrHRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/support/customer_terms.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/support/customer_terms.html",
+          "hash": "tqY1PjQuC9d2bh/2NO2SFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/support/privacy_statement.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/support/privacy_statement.html",
+          "hash": "muekcS5rKHUs90DsgJCp4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/support/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/support/toc.html",
+          "hash": "bJA5MCo0bLJ0uh0p3IzX8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_search.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_search.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/vat/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/vat/overview.html",
+          "hash": "2fOtFPOSII7q+pCQJPptiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "articles/vat/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/vat/toc.html",
+          "hash": "uhgAI0kGtZrC4GEalHpqRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/vat/usage_scenarios.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/vat/usage_scenarios.html",
+          "hash": "QmLyp/33P8RsScZVle2jwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/vat/vat.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/vat/vat.html",
+          "hash": "YP8zh0p0fY4bfCZY+dCPAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elva_logo.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/elva_logo.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "p7ixbAgtWZ7dhe+OnhF6ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "samples.md",
+      "output": {
+        ".html": {
+          "relative_path": "samples.html",
+          "hash": "3CSSXJuX8BgxccIDfUe0xA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Lnfj5FMmIM+d/0ku+NmOOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 14,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

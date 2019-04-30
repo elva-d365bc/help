@@ -1,0 +1,369 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Get started | Latvian Localization </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Get started | Latvian Localization ">
+    <meta name="generator" content="docfx 2.40.12.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../.././images/elva_logo.jpg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="get-started">Get started</h1>
+
+<h2 id="role-center">Role Center</h2>
+<p>In order to use LV VAT, no specific role center is required, because the functionality can be accessed via search pane.</p>
+<h2 id="configuration-package-import">Configuration package import</h2>
+<p>Basic necessary system setup for the use of LV VAT is created, when applying the configuration package LVI.LVI.VAT.</p>
+<ol>
+<li>Click on the button Search for Page or Report...</li>
+<li>Type Config. Packages and select Config. Packages from Pages and Tasks</li>
+<li>Select LVI.LVI.VAT package from list of Config. Packages and press Apply Package.</li>
+</ol>
+<p>Configuration package ensures the following information:</p>
+<ol>
+<li>Countries/Regions and Country/Region Translations</li>
+<li>Currencies</li>
+<li>G/L Accounts (21900..21989|23910|52100..52989|57200..57290)</li>
+<li>General Business, General Product, VAT Business, VAT Product Posting Groups</li>
+<li>General Posting Setup</li>
+<li>VAT Clauses</li>
+<li>VAT Posting Setup</li>
+<li>VAT Statement Template</li>
+<li>VAT Statement Names</li>
+<li>VAT Statement Lines</li>
+<li>VAT Report Setup</li>
+<li>VAT Reports Configuration</li>
+</ol>
+<h2 id="permissions-sets">Permissions Sets</h2>
+<p>Use of LV VAT require the following permission sets to be assigned per user or user group:</p>
+<ul>
+<li>LV_VB_VIEW – designed for viewing VAT Buffer List and selecting</li>
+<li>LV_VB_EDIT- designed for creating, editing and deleting VAT Buffer List</li>
+<li>LV_VAT- designed for exporting and printing VAT Statement and VAT Statement Appendix files</li>
+</ul>
+<h2 id="pre-requisites">Pre-requisites</h2>
+<p>The following information should be completed after importing configuration package:</p>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Type Company information and select Company information from Tasks</li>
+</ol>
+<ul>
+<li>Complete Company Information by entering:</li>
+</ul>
+<ul>
+<li>Name</li>
+<li>Address</li>
+<li>Post Code</li>
+<li>Country</li>
+<li>Registration No.</li>
+<li>VAT Registration No.</li>
+</ul>
+<ol start="3">
+<li>Click on the button Search for Page or Report...</li>
+<li>Type General Ledger Setup and select General Ledger Setup from Administration</li>
+</ol>
+<ul>
+<li>Complete General Ledger Information by selecting a numbering sequence for:</li>
+</ul>
+<ul>
+<li>VAT Buffer Nos.</li>
+</ul>
+<h1 id="setup">Setup</h1>
+<h2 id="general-ledger-setup">General Ledger Setup</h2>
+<p>By applying LVI.LVI.VAT configuration package, the General Ledger Setup shall be modified by adding VAT Statement Appendix related setup.
+The following information should be filled in VAT Buffer fast tab in General Ledger Setup, in order to ensure preparation of VAT Statement Appendixes:</p>
+<ul>
+<li>Default Transaction Limit - enter a limit above which the transaction should be disclosed separately in VAT Appendix</li>
+<li>Business Type (w. Registration No.) - T</li>
+<li>Business Type (wo. Registration No.) - X</li>
+<li>Default Partner Limit - Specifies the threshold in LCY, above which individual transactions are lower than the threshold, but in the aggregate larger than the limit, must be splited by the partners</li>
+<li>Business Type (Partner) - V</li>
+<li>Report Document No. - External Document No.- Document No.</li>
+<li>Group Partner By - VAT Registration No.</li>
+</ul>
+<h2 id="vat-report-setup">VAT Report Setup</h2>
+<p>By applying LVI.LVI.VAT configuration package, the VAT Report Setup shall be be modified by adding VAT Statement related setup.
+The following information should be filled in Numbering fast tab in VAT Report Setup:</p>
+<ul>
+<li>No. series</li>
+<li>VAT Return No.</li>
+</ul>
+<h2 id="vat-report-configuration">VAT Report Configuration</h2>
+<p>By applying LVI.LVI.VAT configuration package, the VAT Report Configuration shall be be modified by adding VAT Statement related setup.
+The following information should be filled:</p>
+<ul>
+<li>EC Sales List
+<ul>
+<li>Suggest Lines Codeunit ID - 70151471</li>
+<li>Content Codeunit ID - 70151472</li>
+<li>Validate Codeunit ID - 143</li>
+</ul>
+</li>
+<li>VAT Return
+<ul>
+<li>Suggest Lines Codeunit ID - 70151474</li>
+<li>Content Codeunit ID - 70151473</li>
+<li>Validate Codeunit ID - 744</li>
+</ul>
+</li>
+</ul>
+<h2 id="vat-statement-template">VAT Statement Template</h2>
+<p>By applying LVI.LVI.VAT configuration package, the VAT Report Configuration shall be be modified by adding VAT Statement related setup.
+The following information should be filled:</p>
+<ul>
+<li>VAT Statement Report ID - 70151475</li>
+</ul>
+<h2 id="vat-statement-names">VAT Statement Names</h2>
+<p>By applying LVI.LVI.VAT configuration package, the VAT Report Configuration shall be be modified by adding VAT Statement related setup.
+The following information should be filled:</p>
+<ul>
+<li>VAT Statement Name - &quot;PVN2018&quot;</li>
+</ul>
+<h2 id="vat-statement-lines">VAT Statement Lines</h2>
+<p>By applying LVI.LVI.VAT configuration package, the VAT Report Configuration shall be be modified by adding VAT Statement related setup.
+The following information should be filled:</p>
+<ul>
+<li>VAT Statement lines for VAT Statement Name - &quot;PVN2018&quot;</li>
+</ul>
+<h1 id="how-to-use">How to use</h1>
+<h2 id="how-to-use-vat-buffer">How to use: VAT Buffer</h2>
+<p><strong>Purpose:</strong> VAT Buffer is used in order to prepare VAT Statement Appendixes
+- VAT 1-1 Local purchase disclosure
+- VAT 1-2 EU purchase disclosure
+- VAT 1-3 Local sale disclosure</p>
+<p><strong>Availability:</strong> can be accessed from Search for Page or Report…</p>
+<p><strong>Pre-requisites:</strong> In order to use the functionality, the following steps are required:</p>
+<p><em>Complete General Fast Tab</em></p>
+<ol>
+<li>VAT Buffer List - create New VAT Buffer</li>
+<li>VAT Buffer No. should come automatically from General Ledger Setup. If it is not completed, enter the VAT Buffer No. manually</li>
+<li>Description - enter the description of the VAT Buffer, for example, &quot;2020 January&quot;</li>
+<li>From Date - enter period starting date for which the VAT Statement Appendix is prepared</li>
+<li>To Date - enter period starting date for which the VAT Statement Appendix is prepared</li>
+</ol>
+<p><em>Complete Setup Fast Tab</em></p>
+<ol>
+<li>G/L Account No. Filter (inland) - enter VAT Accounts that are used for local purchase transactions and inserted in VAT Posting Setup as Purchase VAT Accounts</li>
+<li>G/L Account No. Filter (EU) - enter VAT Accounts that are used for EU purchase transactions and inserted in VAT Posting Setup as Purchase VAT Accounts</li>
+<li>G/L Account No. Filter (Sales) - enter VAT Accounts that are used for local sales transactions and inserted in VAT Posting Setup as Sales VAT Accounts</li>
+<li>G/L Account No. Filter (Sales 0%) - enter Sales Accounts that are used for  sales transactions with zero VAT rate</li>
+<li>Transaction Limit - enter the limit of transaction amount, below which the individual transactions should be grouped together; this limit may be entered in General Ledger Setup</li>
+<li>Partner Limit - enter the limit of transaction amount, above which the transactions should be grouped per Partner; this limit may be entered in General Ledger Setup</li>
+<li>Report Document - select which document number is to be used as Report Document No. and disclosed in VAT Statement Appendix  &quot;External Document No., Document No.&quot; or &quot;Document No.&quot;</li>
+<li>Group Partner By - select whether the entries should be grouped by VAT Registration No. or Company Registration No.</li>
+</ol>
+<p><em>Create Lines</em></p>
+<ol>
+<li>In the Ribbon press &quot;Suggest Lines&quot; function and OK</li>
+<li>The VAT Buffer get populated by transaction lines, that contain the following information:</li>
+</ol>
+<ul>
+<li><p>Line Type - for VAT reporting purposes</p>
+<ul>
+<li>Inland</li>
+<li>EU</li>
+<li>Sales</li>
+</ul>
+</li>
+<li><p>Line No.- line number</p>
+</li>
+<li><p>G/L Entry No. - indicates GL entry number or is blank for several deals in one row</p>
+</li>
+<li><p>VAT Entry No.- indicate VAT entry number or is blank for several deals in one row</p>
+</li>
+<li><p>Posting Date - indicate posting date or is blank for several deals in one row</p>
+</li>
+<li><p>Document Date- indicate date of the document or is blank for several deals in one row</p>
+</li>
+<li><p>Transaction No. - indicate the number of transaction</p>
+</li>
+<li><p>Skip Entry- if checked, then entry is not included for VAT reporting</p>
+</li>
+<li><p>Report Document No. - number of the source document</p>
+</li>
+<li><p>Document No. - number assigned by NAV</p>
+</li>
+<li><p>External Document No.- external document number</p>
+</li>
+<li><p>LV Invoice No.- LV VAT invoice number</p>
+</li>
+<li><p>Document Type- indicates the type of the document</p>
+<ul>
+<li>Payment</li>
+<li>Invoice</li>
+<li>Credit Memo</li>
+<li>Finance Charge Memo</li>
+<li>Reminder</li>
+<li>Refund</li>
+</ul>
+</li>
+<li><p>Business Type- according to codes of Tax Administration</p>
+</li>
+<li><p>Invoice Is Custom Declaration- displays the invoice as customs declaration in VAT buffer</p>
+</li>
+<li><p>No Grouping - displays the selected entry without grouping</p>
+</li>
+<li><p>EU 3-Party Trade- indicates whether the deal is classified as third party trade</p>
+<ul>
+<li>Yes</li>
+<li>No</li>
+</ul>
+</li>
+<li><p>VAT %- indicates the VAT interest rate</p>
+</li>
+<li><p>VAT Declaration Line No. - indicates the VAT declaration line number</p>
+</li>
+<li><p>EU Service - indicates whether the deal is considered as service within EU</p>
+</li>
+<li><p>Vendor No. - vendor number from Vendor List</p>
+</li>
+<li><p>Customer No.- customer number from Customer List</p>
+</li>
+<li><p>Partner No.- Partner number, if transactions involve Companies that are considered as one VAT Group</p>
+</li>
+<li><p>Partner Name- Partner name</p>
+</li>
+<li><p>Partner VAT Registration No.- Partner VAT No.</p>
+</li>
+<li><p>Country/Region Code -</p>
+</li>
+<li><p>Base Amount (LCY)- VAT taxable amount in Local currency</p>
+</li>
+<li><p>VAT Amount (LCY)- VAT amount in Local currency</p>
+</li>
+<li><p>Amount (LCY) - total amount in Local currency</p>
+</li>
+<li><p>Currency Code - currency code</p>
+</li>
+<li><p>Currency Factor- exchange rate, if deal currency differs from local currency</p>
+</li>
+<li><p>Base Amount -</p>
+</li>
+<li><p>VAT Amount</p>
+</li>
+<li><p>Amount</p>
+</li>
+<li><p>Report Document Type</p>
+<ul>
+<li>Invoice</li>
+<li>Cash Payment</li>
+<li>Bank Payment</li>
+<li>Credit Memo</li>
+<li>Other</li>
+<li>Custom Declaration</li>
+</ul>
+</li>
+<li><p>Group Line No. - group line number within Group level</p>
+</li>
+<li><p>Grouping Level No. - group level number</p>
+</li>
+<li><p>System-Created- checked if line is suggested by Dynamics 365 Business Central , unchecked if user made modifications to line</p>
+</li>
+</ul>
+<p><em>Note</em></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © ELVA BALTIC SIA
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
