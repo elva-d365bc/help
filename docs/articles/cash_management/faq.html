@@ -79,39 +79,41 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="faq">FAQ</h1>
 
-<h2 id="is-a-specific-role-center-required-for-use-of-your-application">Is a specific Role Center required for use of your application?</h2>
-<p>In order to use LV Cash Management, no specific role center is required.</p>
-<h2 id="is-there-a-list-of-basic-settings-to-be-completed-for-using-your-app">Is there a list of basic settings to be completed for using your app?</h2>
-<p>Basic necessary system setup for the use of LV Cash Management is created, when applying the configuration package LVI.LVI.CASH.
+<h2 id="1-is-a-specific-role-center-required-for-use-of-your-application">1. Is a specific Role Center required for use of your application?</h2>
+<p>In order to use Cash Management Localization for Latvia, no specific role center is required.</p>
+<h2 id="2-is-there-a-list-of-basic-settings-to-be-completed-for-using-your-app">2. Is there a list of basic settings to be completed for using your app?</h2>
+<p>Basic necessary system setup for the use of Cash Management Localization for Latvia is created, when applying the configuration package LVI.LVI.CASH.
 For detailed guidance and images please review Help section: Configuration Package Import.
 Please note that Balancing Account per each Cash Book Journal Batch needs to be entered manually.</p>
-<h2 id="i-do-not-have-a-specific-bank-posting-group-to-be-used-for-petty-cash-transactions-do-i-need-one">I do not have a specific Bank Posting Group to be used for Petty Cash Transactions. Do I need one?</h2>
+<h2 id="3-i-do-not-have-a-specific-bank-posting-group-to-be-used-for-petty-cash-transactions-do-i-need-one">3. I do not have a specific Bank Posting Group to be used for Petty Cash Transactions. Do I need one?</h2>
 <p>Local legislation requirements indicate to disclose cash and petty cash positions separately, therefore separate Bank Posting Groups are required for cash and petty cash transactions.</p>
-<h2 id="does-lv-cash-management-support-petty-cash-transactions-in-foreign-currencies">Does LV Cash Management support petty cash transactions in foreign currencies?</h2>
-<p>Yes, LV Cash Management supports transactions in foreign currencies. Please use personalization to add Currency Code column into Cash Book Journal.</p>
-<h2 id="i-forgot-to-print-the-cash-payment-orders-from-cash-book-journal-currently-the-transactions-are-posted-how-can-i-obtain-a-printout">I forgot to print the cash payment orders from Cash Book Journal. Currently the transactions are posted. How can I obtain a printout?</h2>
+<h2 id="4-does--support-petty-cash-transactions-in-foreign-currencies">4. Does Cash Management Localization for Latvia support petty cash transactions in foreign currencies?</h2>
+<p>Yes, Cash Management Localization for Latvia supports transactions in foreign currencies. Please use personalization to add Currency Code column into Cash Book Journal.</p>
+<h2 id="5-i-forgot-to-print-the-cash-payment-orders-from-cash-book-journal-currently-the-transactions-are-posted-how-can-i-obtain-a-printout">5. I forgot to print the cash payment orders from Cash Book Journal. Currently the transactions are posted. How can I obtain a printout?</h2>
 <p>Cash Payment Order can be printed for a posted transaction, using report Cash Payment Order from Reports and Analysis with a filter of Bank Ledger Entry.
 <img src="images/Use_002.png" alt="alt"></p>
-<h2 id="can-i-print-cash-orders-in-latvian">Can I print cash orders in Latvian?</h2>
+<h2 id="6-can-i-print-cash-orders-in-latvian">6. Can I print cash orders in Latvian?</h2>
 <p>When your system interface language is Latvian, then Cash Payment Orders, Cash Receipt Orders and Cash Book shall be available for printing in Latvian.</p>
-<h2 id="when-posting-in-cash-book-journal-i-receive-an-error-on-empty-person-identification-number-according-to-gdpr-a-person-may-not-disclose-the-personal-identification-number-can-it-be-skipped-or-switched-off">When posting in Cash Book Journal I receive an error on empty Person Identification Number. According to GDPR, a person may not disclose the personal identification number. Can it be skipped or switched off?</h2>
+<h2 id="7-when-posting-in-cash-book-journal-i-receive-an-error-on-empty-person-identification-number-according-to-gdpr-a-person-may-not-disclose-the-personal-identification-number-can-it-be-skipped-or-switched-off">7. When posting in Cash Book Journal I receive an error on empty Person Identification Number. According to GDPR, a person may not disclose the personal identification number. Can it be skipped or switched off?</h2>
 <p>Person Identification Number field is considered as mandatory for Cash transactions. When a person does not disclose a personal identification number, please put any value in the field for Personal Identification number. The control cannot be switched off.</p>
-<h2 id="how-can-i-register-money-in-cash-desk-from-bank-and-money-out-from-cash-desk-into-bank-because-there-might-be-a-date-difference-with-bank-statement">How can I register money-in cash desk from bank and money-out from cash desk into bank, because there might be a date difference with bank statement?</h2>
+<h2 id="8-how-can-i-register-money-in-cash-desk-from-bank-and-money-out-from-cash-desk-into-bank-because-there-might-be-a-date-difference-with-bank-statement">8. How can I register money-in cash desk from bank and money-out from cash desk into bank, because there might be a date difference with bank statement?</h2>
 <p>For such operations Cash-in-Transit account needs to be created in Chart of Accounts.
-Payment journal: Take money out from the bank and post to G/L Account” Cash-in-Transit”
-•	Document Type: Payment
-•	Account Type: G/L Account
-•	Account No: one that used for Cash in Transit
-•	Amount: Positive (Debit)
-•	Bal.Account Type: Bank Account
-•	Bal. Account No.: one that used for Bank operations
-Cash book journal: Take money out from G/L Account” Cash-in-Transit”, place in Petty cash
-•	Document Type: Refund
-•	Account Type: G/L Account
-•	Account No: one that used for Cash in Transit
-•	Amount: Negative (Credit)
-•	Bal.Account Type: Bank Account
-•	Bal. Account No.: one that used for Petty Cash Transactions</p>
+Payment journal: Take money out from the bank and post to G/L Account” Cash-in-Transit”</p>
+<ul>
+<li>Document Type: Payment</li>
+<li>Account Type: G/L Account</li>
+<li>Account No: one that used for Cash in Transit</li>
+<li>Amount: Positive (Debit)</li>
+<li>Bal.Account Type: Bank Account</li>
+<li>Bal. Account No.: one that used for Bank operations
+Cash book journal: Take money out from G/L Account” Cash-in-Transit”, place in Petty cash</li>
+<li>Document Type: Refund</li>
+<li>Account Type: G/L Account</li>
+<li>Account No: one that used for Cash in Transit</li>
+<li>Amount: Negative (Credit)</li>
+<li>Bal.Account Type: Bank Account</li>
+<li>Bal. Account No.: one that used for Petty Cash Transactions</li>
+</ul>
 </article>
           </div>
           

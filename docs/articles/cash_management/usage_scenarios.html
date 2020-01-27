@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> | Latvian Localization </title>
+    <title>Walkthrough: Import Configuration package | Latvian Localization </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" | Latvian Localization ">
+    <meta name="title" content="Walkthrough: Import Configuration package | Latvian Localization ">
     <meta name="generator" content="docfx 2.48.1.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -77,7 +77,227 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
+<h1 id="walkthrough-import-configuration-package">Walkthrough: Import Configuration package</h1>
 
+<p><strong>About this walkthrough</strong>: Basic necessary system setup for the use of Cash Management Localization for Latvia is created, when applying the configuration package LVI.LVI.CASH .
+<strong>Roles</strong>: No specific user roles are required.
+<strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus Latvia, SIA is required to use customer company registration number on official documents sent to the customer. Your task is to create customer card for new Customer “Nordic Group, SIA” and enter the company registration number.
+<strong>Prerequisite</strong>: No specific prerequisites are required.
+<strong>Steps</strong>:</p>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/Get_001.png" alt="alt"></li>
+<li>Type Config. Packages and select Config. Packages from Pages and Tasks
+<img src="images/Get_002.png" alt="alt"></li>
+<li>Select LVI.LVI.CASH package from list of Config. Packages and press Apply Package.
+<img src="images/Get_003.png" alt="alt"></li>
+</ol>
+<p>Configuration package ensures the following information:</p>
+<ol>
+<li>General Journal Template (CASHBOOK)</li>
+<li>General Journal Batch (RECEIPT, PAYMENT, DEFAULT)</li>
+<li>No.Series (KIO, KZO)</li>
+<li>No.Series Lines (for KIO, KZO)</li>
+</ol>
+<h2 id="permissions-sets">Permissions Sets</h2>
+<p>Use of Cash Management Localization for Latvia requires the following standard permission sets to be assigned for the user:
+•	D365 JOURNALS, EDIT	
+•	D365 JOURNALS, POST</p>
+<h2 id="pre-requisites">Pre-requisites</h2>
+<p>The following information should be completed after importing configuration package:
+•	Create employee card, who is responsible for Petty Cash
+•	Complete Company Information
+•	Create Bank Account Card per each Petty Cash location
+Proceed with following detailed steps:</p>
+<ol>
+<li><p>Click on the button Search for Page or Report...
+<img src="images/Get_004.png" alt="alt"></p>
+</li>
+<li><p>Type Employee and select Employees from Pages and Tasks
+<img src="images/Get_005.png" alt="alt"></p>
+</li>
+<li><p>Create new employees who is responsible for Intrastat reporting:
+<img src="images/Get_006.png" alt="alt"></p>
+</li>
+<li><p>Complete No., Name, Surname, Job Title fields
+<img src="images/Get_007.png" alt="alt"></p>
+</li>
+<li><p>Click on the button Search for Page or Report...
+<img src="images/Get_008.png" alt="alt"></p>
+</li>
+<li><p>Type Company Information and select Company Information from Pages and Tasks
+<img src="images/Get_009.png" alt="alt"></p>
+</li>
+<li><p>Complete Company Information by:
+a.	Entering
+i.	Name
+ii.	Address
+iii.	Post Code
+iv.	Country
+v.	Registration No.
+vi.	VAT Registration No.
+<img src="images/Get_010.png" alt="alt"></p>
+</li>
+<li><p>Create New Bank Account Posting Group for Petty cash:
+You use bank account posting groups to create linkages between your bank accounts and the central financial statements in the general ledger.</p>
+</li>
+</ol>
+<h2 id="walkthrough-how-to-set-up-bank-account-posting-groups">Walkthrough: How to set up bank account posting groups</h2>
+<p><strong>About this walkthrough</strong>: Registration number is used in preparing bank export files and on document printouts, that are handed out to customers or vendors.
+This walkthrough demonstrates the process for entering registration numbers for customer in Customer card.
+<strong>Roles</strong>: No specific user roles are required.
+<strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus Latvia, SIA is required to use customer company registration number on official documents sent to the customer. Your task is to create customer card for new Customer “Nordic Group, SIA” and enter the company registration number.
+<strong>Prerequisite</strong>: No specific prerequisites are required.
+<strong>Steps</strong>:</p>
+<p>a.	Click on the button Search for Page or Report...
+<img src="images/Get_011.png" alt="alt">
+b.	enter Bank Account Posting Groups and then choose the related link.
+<img src="images/Get_012.png" alt="alt">
+c.	Press New to create a relevant bank account posting group.
+<img src="images/Get_013.png" alt="alt">
+d.	Enter the code for the group that you want to set up in the Code field. The code should be descriptive. You can use both numbers and letters. In the G/L Bank Account No. field, enter the desired account
+<img src="images/Get_014.png" alt="alt"></p>
+<ol start="9">
+<li>Complete Bank Account information (per each bank account separately)
+a.	Click on the button Search for Page or Report...
+<img src="images/Get_015.png" alt="alt">
+b.	Type Bank Accounts and select Bank Accounts from Pages and Tasks
+<img src="images/Get_016.png" alt="alt">
+c.	Press New, in order to create New Bank Account card per Petty Cash location
+<img src="images/Get_017.png" alt="alt">
+d.	Complete Bank Account Card information with Name, Address details
+<img src="images/Get_018.png" alt="alt"><br>
+e.	Complete Bank Account Card information with Currency Code (if differs from Local Currency) and Bank Account Posting Group (specifies the asset account for cash transactions)<img src="images/Get_019.png" alt="alt"></li>
+</ol>
+<p>f.	Complete Bank Account Card information with following information:</p>
+<ol>
+<li>Account Type- select Cash Desk</li>
+<li>Cashier No.- select an employee from the List of Employees, who is responsible for petty cash operations for this location</li>
+<li>Accountant No. - select an employee from the List of Employees, who holds the position of an accountant
+<img src="images/Get_020.png" alt="alt"></li>
+</ol>
+<h1 id="walkthrough-how-to-set-up-cash-book-journal-batches">Walkthrough: How to set up Cash Book Journal batches</h1>
+<p><strong>About this walkthrough</strong>: Registration number is used in preparing bank export files and on document printouts, that are handed out to customers or vendors.
+This walkthrough demonstrates the process for entering registration numbers for customer in Customer card.
+<strong>Roles</strong>: No specific user roles are required.
+<strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus Latvia, SIA is required to use customer company registration number on official documents sent to the customer. Your task is to create customer card for new Customer “Nordic Group, SIA” and enter the company registration number.
+<strong>Prerequisite</strong>: No specific prerequisites are required.
+<strong>Steps</strong>:</p>
+<p>Cash Receipt Orders and Cash Payment Orders require to have separate Cash Book Journal batches.</p>
+<ol>
+<li>Click on the button Search for Page or Report...
+<img src="images/Set_001.png" alt="alt"></li>
+<li>Type Cash Book Journals and select Cash Book Journals from Pages and Tasks
+<img src="images/Set_002.png" alt="alt"></li>
+<li>Open Cash Book Journal batches
+<img src="images/Set_003.png" alt="alt"></li>
+<li>Review New Cash Book Journal Batches created for Cash Receipt Orders and Cash Payment Orders</li>
+<li>Complete Name, Description of new Cash Book Journal Batches</li>
+<li>Review that Balancing Account Type is set to Bank Account,</li>
+<li>Set Balancing Account No. to Bank Account used for Petty Cash (See Pre-requisites)</li>
+<li>Set No. Series per each Cash Book Journal Batch
+<img src="images/Set_004.png" alt="alt"></li>
+</ol>
+<h1 id="walkthrough-how-to-use-cash-book-journal">Walkthrough: How to use: Cash Book Journal</h1>
+<p><strong>About this walkthrough</strong>: Registration number is used in preparing bank export files and on document printouts, that are handed out to customers or vendors.
+This walkthrough demonstrates the process for entering registration numbers for customer in Customer card.
+<strong>Roles</strong>: No specific user roles are required.
+<strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus Latvia, SIA is required to use customer company registration number on official documents sent to the customer. Your task is to create customer card for new Customer “Nordic Group, SIA” and enter the company registration number.
+<strong>Prerequisite</strong>: No specific prerequisites are required.
+<strong>Steps</strong>:</p>
+<p>LV Cash Book Journal is used for entering, posting and printing Cash Receipt Orders and Cash Payment Orders.
+Appropriate Batch required to be selected for each Cash Register.
+Information required:
+•	Posting date- date when the transaction is posted
+•	Document Type-
+o	Payment- used for Cash Receipt Orders
+o	Refund- used for Cash withdraw
+•	Document No. - sequential number of the Cash Receipt/Payment Order, usually populated from Cash Book Journal Batch No.Series
+•	Account Type-
+o	Use Customer for receiving petty cash payments from Customers or giving a customer refund; the transaction shall appear in Customer Ledger Entries
+o	Use Vendor for paying petty cash to Vendors or receiving a refund from a Vendor; the transaction shall appear in Customer Ledger Entries
+o	Use G/L Account for registering Cash-In-Transit or miscellaneous expenses
+•	Account No.-   select a definite Customer/Vendor/G/L account from a list, based on the Account Type selected in previous step
+•	Description- define the description to be displayed in Cash Receipt/Payment Orders
+•	Employee No.- select an employee from List Of Employees who receives or provides petty cash
+•	Person Identity No. - define the Identity No. of the counterparty
+•	Person Ident. Doc. Info - define the Identity document information
+•	Attachment Description - text field for any additional notes to be displayed in Cash Receipt/Payment Order
+•	Debit Amount-
+•	Credit Amount-
+•	Amount-
+•	Bal.Account Type- from Bank Accounts (Cash Desk)
+•	Bal. Account No.- number of Cash Desk</p>
+<h1 id="walkthrough-how-to-use-create-cash-payment-order">Walkthrough: How to use: Create Cash Payment Order</h1>
+<p>Cash Management Localization for Latvia ensures possibility to create Cash Payment Orders in Dynamics 365 Business Central and print them, in order to be compliant with Latvia local legislation requirements.
+<strong>About this walkthrough</strong>: Registration number is used in preparing bank export files and on document printouts, that are handed out to customers or vendors.
+This walkthrough demonstrates the process for entering registration numbers for customer in Customer card.
+<strong>Roles</strong>: No specific user roles are required.
+<strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus Latvia, SIA is required to use customer company registration number on official documents sent to the customer. Your task is to create customer card for new Customer “Nordic Group, SIA” and enter the company registration number.
+<strong>Prerequisite</strong>: No specific prerequisites are required.
+<strong>Steps</strong>:
+<strong>Purpose</strong>: Petty Cash Payment Orders require to be registered in the system with ability to provide a correct printout per transaction requested.<br>
+Available for printing from: reports can be printed from Cash Book Journals. Particular Print button Cash Payment Order is located in the Ribbon under the TAB Process.
+<img src="images/Use_001.png" alt="alt">
+Also Cash Payment Order can be printed for a posted transaction, using report Cash Payment Order from Reports and Analysis with a filter of Bank Ledger Entry.
+<img src="images/Use_002.png" alt="alt">
+<strong>Pre-requisites</strong>: Cashier and Accountant need to be specified in Bank Account Card; Bank Account Card should have correct Bank Posting Group assigned; fields Person Identity No. and Person Identity Doc. No. fields are mandatory to be completed.
+Document Type: Payment
+Amount: Positive
+Printing Options: the following printing options are available for this printout:
+•	Print Received Information in words – when selected, the amount in words is printed next to section Received of the report</p>
+<p>Also a filter on Gen. Journal Line can be applied, when creating the report from Cash Book Journal.
+<img src="images/Use_003.png" alt="alt">
+When the printing options are selected, it is possible to use standard Send To…, Print, Preview functions.
+<img src="images/Use_004.png" alt="alt"></p>
+<h2 id="how-to-use-create-cash-receipt-order">How to use: Create Cash Receipt Order</h2>
+<p>Cash Management Localization for Latvia ensures possibility to create Cash Receipt Orders in Dynamics 365 Business Central and print them, in order to be compliant with Latvia local legislation requirements.
+<strong>About this walkthrough</strong>: Registration number is used in preparing bank export files and on document printouts, that are handed out to customers or vendors.
+This walkthrough demonstrates the process for entering registration numbers for customer in Customer card.
+<strong>Roles</strong>: No specific user roles are required.
+<strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus Latvia, SIA is required to use customer company registration number on official documents sent to the customer. Your task is to create customer card for new Customer “Nordic Group, SIA” and enter the company registration number.
+<strong>Prerequisite</strong>: No specific prerequisites are required.
+<strong>Steps</strong>:
+<strong>Purpose</strong>: Petty Cash Receipt Orders require to be registered in the system with ability to provide a correct printout per transaction requested.<br>
+Available for printing from: reports can be printed from Cash Book Journals. Particular Print button Cash Payment Order is located in the Ribbon under the TAB Process.
+<img src="images/Use_005.png" alt="alt">
+Also Cash Payment Order can be printed for a posted transaction, using report Cash Payment Order from Reports and Analysis.
+<img src="images/Use_006.png" alt="alt">
+<strong>Pre-requisites</strong>: Cashier and Accountant need to be specified in Bank Account Card; Bank Account Card should have correct Bank Posting Group assigned; fields Person Identity No. and Person Identity Doc. No. fields are mandatory to be completed.
+Document Type: Refund
+Amount: Negative
+Output Options: the following printing options are available for this printout- not available.
+A filter on Gen. Journal Line can be applied, when creating the report from Cash Book Journal.
+<img src="images/Use_007.png" alt="alt">
+When the printing options are selected, it is possible to use standard Send To…, Print, Preview functions.</p>
+<p>****<strong><strong><strong><strong><strong>Replace picture, when Company name is available</strong></strong></strong></strong></strong></p>
+<p>****<strong><strong><strong><strong><strong>Replace picture, when Company name is available</strong></strong></strong></strong></strong></p>
+<p> </p>
+<h1 id="walkthrough-how-to-use-print-cash-book">Walkthrough: How to use: Print Cash Book</h1>
+<p>Cash Management Localization for Latvia ensures possibility to register Cash Receipt Orders and Cash Payment Orders in Dynamics 365 Business Central and at the end of the period show all particular petty cash transactions in one report- Cash Book in order to be compliant with Latvia local legislation requirements.
+<strong>About this walkthrough</strong>: Registration number is used in preparing bank export files and on document printouts, that are handed out to customers or vendors.
+This walkthrough demonstrates the process for entering registration numbers for customer in Customer card.
+<strong>Roles</strong>: No specific user roles are required.
+<strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus Latvia, SIA is required to use customer company registration number on official documents sent to the customer. Your task is to create customer card for new Customer “Nordic Group, SIA” and enter the company registration number.
+<strong>Prerequisite</strong>: No specific prerequisites are required.
+<strong>Steps</strong>:
+<strong>Purpose</strong>: Cash Book report shows all petty cash transactions per period.<br>
+Available for printing from: reports can be printed from Cash Book Journals. Particular Print button Cash Payment Order is located in the Ribbon under the TAB Process.
+<strong>Pre-requisites</strong>: Bank Account used for Petty Cash has Cash Receipt or Cash Payment Orders posted in specific selected period.</p>
+<p><strong>Output Options</strong>: the following printing options are available for this printout.<br>
+•	Report No. – enter a specific number that shall appear on the Cash Book printout
+A filter on Gen. Journal Line can be applied, when creating the report from Cash Book Journal.</p>
+<p><img src="images/Use_009.png" alt="alt">
+When the printing options are selected, it is possible to use standard Send To…, Print, Preview functions.
+****<strong><strong><strong><strong><strong>Replace picture, when Company name is available</strong></strong></strong></strong></strong>
+<img src="images/Use_010.png" alt="alt"></p>
 </article>
           </div>
           
