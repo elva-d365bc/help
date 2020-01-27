@@ -115,7 +115,8 @@
 <ol>
 <li>Click on the button Search for Page or Report...
 <img src="images/vat_help_search.png" alt="alt"></li>
-<li>Type Company information and select Company information from Tasks</li>
+<li>Type Company information and select Company information from Tasks
+<img src="images/vat_help_comp_info.png" alt="alt"></li>
 </ol>
 <ul>
 <li>Complete Company Information by entering:</li>
@@ -327,10 +328,90 @@ The following information should be filled:</p>
 </li>
 <li><p>Grouping Level No. - group level number</p>
 </li>
-<li><p>System-Created- checked if line is suggested by Dynamics 365 Business Central , unchecked if user made modifications to line</p>
+<li><p>System-Created- checked if line is suggested by [!INCLUDE [nav_name] (../includes/nav_name.md)] , unchecked if user made modifications to line</p>
 </li>
 </ul>
-<p><em>Note</em></p>
+<p><em>Note</em>
+Once the lines are created in VAT Buffer, they are not updated, if any postings are done within the period, that is collected inside the VAT Buffer.
+In order to update the lines in VAt Buffer it is required to press &quot;Delete All Lines&quot; in Ribbon, then press &quot;Suggest Lines&quot; once more.
+<em>Print VAT Statement Appendix</em></p>
+<ol>
+<li>VAT Buffer status needs to be set to Released, using &quot;Release&quot; button in the Ribbon.</li>
+<li>In the Ribbon press &quot;Print VAT Appendix&quot;</li>
+<li>Select &quot;Prepared by&quot; - the responsible employee, who prepared the VAT Statement Appendix from the list of Employees. By selecting &quot;Prepared by&quot;, Employee card data are re-used: Name, Surname, Job title, Phone No.</li>
+<li>VAT Statement Appendix can be sent to Preview, PDF, Excel, Word.</li>
+</ol>
+<h2 id="how-to-use-vat-statement">How to use: VAT Statement</h2>
+<p><strong>Purpose:</strong> VAT Statement is used to set filters for VAT or General Ledger Entries, in order to prepare VAT Return.</p>
+<p><strong>Availability:</strong> can be accessed from Search for Page or Report…</p>
+<p><strong>Pre-requisites:</strong> In order to use the functionality, the following steps are required:</p>
+<ul>
+<li><p>VAT Statement template - VAT Statement Report ID - 70151475
+*Complete VAT Statement Lines&quot;
+Open VAT Statements list, select &quot;PVN2018&quot; press &quot;Edit VAT Statement&quot; in the Ribbon.
+In VAT Statement lines it is required to keep the structure of the main VAT statement lines, according to LV local legislation.</p>
+</li>
+<li><p>Row No.– row no. for VAT Statement lines should match the State Revenue Service VAT statement lines; for lines that are used for additional calculations - any number can be used.</p>
+</li>
+<li><p>Description – entered description should match the State Revenue Service VAT statement lines; for lines that are used for additional calculation - free text can be used</p>
+</li>
+<li><p>Box. No. - this field should indicate to which State Revenue VAT Statement line does the calculated amount refer.</p>
+</li>
+<li><p>Type – indicates which entries are used for calculation. Following options are available:</p>
+<ul>
+<li>Account Totalling – used for filtering particular G/L entries</li>
+<li>VAT Entries -  used for filtering of VAT entries</li>
+<li>Row Totalling - used for filtering of VAT Statement rows</li>
+<li>Description - used for rows without amounts</li>
+<li>Math - rows contains calculus, using Math Operator, Operand 1 and Operand 2; this type is used for calculating VAT Proportion</li>
+</ul>
+</li>
+<li><p>Row Totalling - if row type is set to Row Totalling, then here it is required to enter the rows</p>
+</li>
+<li><p>Account Totalling - if row type is set to Account Totalling, then here it is required to enter G/L Accounts</p>
+</li>
+<li><p>Amount type - if row type is set to VAT entries, then here it is possible to define</p>
+<ul>
+<li>Base Amount- for displaying taxable base amount</li>
+<li>VAT Amount- for displaying VAT amount</li>
+<li>Unrealized Base Amount- for displaying unrealized taxable base amount</li>
+<li>Unrealized VAT Amount- for displaying unrealized VAT amount</li>
+</ul>
+</li>
+<li><p>G/L Amount type - if row type is set to Account Totalling, then here it is possible to define</p>
+<ul>
+<li>Net change - for displaying net change</li>
+<li>Debit Amount- for displaying only debit amounts</li>
+<li>Credit Amount- for displaying only credit amounts</li>
+</ul>
+</li>
+<li><p>Math Operator - used for defining calculation type</p>
+<ul>
+<li>Add - returns row value of expression &quot;Operand 1&quot; + &quot;Operand 2&quot;</li>
+<li>Substract - returns row value of expression &quot;Operand 1&quot; - &quot;Operand 2&quot;</li>
+<li>Multiply - returns row value of expression &quot;Operand 1&quot; * &quot;Operand 2&quot;</li>
+<li>Divide - returns row value of expression &quot;Operand 1&quot; / &quot;Operand 2&quot; (if Operand 2 = 0, then returns 0)</li>
+<li>Calculate % - returns row value of expression &quot;Operand 1&quot; / &quot;Operand 2&quot; * 100 (if Operand 2 = 0, then returns 0)</li>
+<li>Use % - returns row value of expression &quot;Operand 1&quot; / &quot;Operand 2&quot; / 100</li>
+<li>Min - return the lowest value of Row Totalling</li>
+<li>Max - return the highest value of Row Totalling</li>
+</ul>
+</li>
+<li><p>Gen. Posting Type, Gen. Bus. Posting Group, Gen. Prod. Posting Group, VAT Bus. Posting Group, VAT Prod. Posting Group - fields for additional filtering by posintg groups</p>
+</li>
+<li><p>Print With - ensures possibility to print with opposite sign;</p>
+</li>
+<li><p>Round - ensures possibility to round numbers; 0.01 by default</p>
+</li>
+<li><p>Rounding type - nearest, upwards, downwards; fields is used for proportion calculation</p>
+</li>
+<li><p>Calculate with - ensures possibility to use opposite sign for calculation</p>
+</li>
+<li><p>Zero if - ensures possibility to show zero, if amount is negative or positive; to be used for VAT payable or VAT refund fields in VAT statement</p>
+</li>
+<li><p>Print - if checkmark is inserted, then statement line is printed</p>
+</li>
+</ul>
 </article>
           </div>
           

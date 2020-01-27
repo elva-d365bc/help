@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>FAQ | Latvian Localization </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="FAQ | Latvian Localization ">
+    <meta name="generator" content="docfx 2.40.12.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../.././images/elva_logo.jpg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="faq">FAQ</h1>
+
+<ol>
+<li><p>Is a specific Role Center required for use of your application?
+In order to use LV Base and Invoice, no specific role center is required.</p>
+</li>
+<li><p>Is there a list of basic settings to be completed for using your app?
+Basic necessary system setup for the use of LV Base and Invoices is created, when applying the configuration package LVI.LVI.STANDARD.
+For detailed guidance and images please review Help section: Configuration Package Import</p>
+</li>
+<li><p>Our company does not have a Finance Manager only a CEO and Accountant. How we should configure company information?
+Select the Accountant employee card for Finance Manager.
+In case the Accounting Manager is not selected in Company Information, the in the printouts the Finance Manager data shall appear instead of Accounting Manager.</p>
+</li>
+<li><p>By mistake we have entered two identical customer cards for a non-VAT payer company. Is there any kind of control on this?
+A non-VAT payer company has a company registration number.
+It is possible to setup registration number check for customers in Sales &amp;Receivables Setup by selecting an option:
+•	None- registration number is not controlled; two or more customer cards may exist with the same customer company registration number
+•	Message – the system gives a message, if a user is entering a registration number for a customer that already exists in the system
+•	Error – Customer Company Registration number is required to be unique for customer cards</p>
+</li>
+<li><p>Our company delivers goods to customer using transporters, but each time the servicing company provides a different vehicle. Is it possible not to use that catalogue?
+Yes, it is possible not to use the Transporter catalogue per each vehicle, you may enter the Transporting Company details in list of Transporters and add the vehicle information on sales/purchase/transfer documents by editing the field.
+For Printing Options use Print Transporter “From Document”.</p>
+</li>
+<li><p>When we try to create a payment file from a payment journal, the lines turn red and the file is not created. What is the cause?
+Please refer to Payment File Export fact box, the system has a control at place, if any mandatory information required by bank payment rules is missing. The most common issues can be missing country codes and or company registration numbers for vendors, missing SWIFT code or IBAN in the Vendor Bank card; missing data in company information company registration number, country code; missing data in bank account card – country code, Bank account No., SWIFT code, IBAN.</p>
+</li>
+<li><p>Our company is receiving foreign incoming payments from customers, in some cases we do not assign foreign payment code when transaction is posted. Is it possible to add the transaction to the foreign payment report afterwards?
+If the foreign payment code is not assigned when posting payment journal or reconciliation journal line, then the foreign payment code cannot be assigned to bank ledger entry afterwards.
+In such cases the entry needs to be reversed and posted once more, but with assigning the foreign payment code.</p>
+</li>
+<li><p>The exchange rate services did not update the currency exchange rate in the morning. Can I upload the rates manually?
+In order to use the functionality manually, the following steps are required:
+•	Click on the button Search for Page or Report...
+<img src="iamges/user_scenarios/GettingStarted_Search_001.PNG" alt="alt">
+•	Type Currencies and select Currencies from Pages and Tasks
+<img src="images/user_scenario/Usage_Currencies_001.png" alt="alt">
+•	Press Import Currency Rates
+<img src="images/user_scenario/Usage_Currencies_002.png" alt="alt">
+•	Define Import Currency Rates options
+<strong>Options</strong>:
+•	From Date – set the period start date for import
+•	To Date – set the period end date for import (by default is set to today)
+•	Curr.Exch. Rate Update Setup – select the setup code, that was uploaded in the system by LVI.LVI.Standard configuration package ECB-EXCHANGE-RATES
+<img src="images/user_scenario/Usage_Currencies_003.png" alt="alt"></p>
+</li>
+<li><p>When preparing foreign payment report, I receive a blank page, but we had foreign incoming payments for this period. What is wrong?
+The information in the report appears if only you have assigned the foreign payment code, before posting payment journal or payment reconciliation journal. If there are transactions posted without assigned foreign payment code, then the report comes blank as for there is no data for the report.</p>
+</li>
+<li><p>We have printed a sales prepayment invoice from sales order and posted sales prepayment invoice. Currently we need to print LV Sales Prepayment Invoice once more, because the customer has lost it.
+After Sales prepayment invoice is posted, it is possible to print LV Sales Invoice from Posted Sales Invoice, but it will not indicate that it is a prepayment.
+According to the process, LV Sales Prepayment Invoice need to be printed before sales prepayment is posted. Sales prepayment invoice is posted only at the point, when sales prepayment is received, that ensures ability to print out LV Sales Prepayment Invoice from Sales Order.</p>
+</li>
+<li><p>Values in Inventory Write-Off document do not match the values in Posted Inventory Write-Off document. What is the reason?
+When printing the document from unposted item journal lines, the unit cost may not be actual; therefore it is advised to print Posted Inventory Write-off document, using additional filters on item ledger entry in printing options for Item Ledger Entry.</p>
+</li>
+<li><p>Fixed asset physical inventory document printout has lines for comments to be added, but there is no such option in printing options. How can I add the comments?
+Comments can be added by saving this document as Word file.</p>
+</li>
+<li><p>When I export the payment file for bank from payment journal and upload it to banking online, the file is rejected because information to recipient. How can this be corrected?
+Number of symbols allowed in information to recipient vary from bank to bank, therefore go to particular payment journal line and remove some symbols in field Message to Recipient. Afterwards payment file needs to be exported once more and uploaded to Banking online.</p>
+</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © ELVA BALTIC SIA
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
