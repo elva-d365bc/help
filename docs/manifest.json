@@ -25,15 +25,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "articles/base_and_invoices/faq.md",
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/faq.html",
-          "hash": "ZAvlJeB/XuaunyhT2IlJXg=="
+          "hash": "JDdda0o83JpbXFKehdbTew=="
         }
       },
       "is_incremental": false,
@@ -1813,30 +1810,24 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "articles/base_and_invoices/usage_scenarios.md",
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/usage_scenarios.html",
-          "hash": "fY14Qz2S+2vw+b5jGg/UOw=="
+          "hash": "qGVK97YuTkVgGDtZ6KlJ9A=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "articles/cash_management/cash_management.md",
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/cash_management.html",
-          "hash": "qDaHwSEenv31R0sI7u9Vgw=="
+          "hash": "B+sr8EFggjPjrWDXwwWXgQ=="
         }
       },
       "is_incremental": false,
@@ -2241,15 +2232,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Toc",
       "source_relative_path": "articles/cash_management/toc.md",
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/toc.html",
-          "hash": "SCeMMzvWKoK9U9QuhowGbQ=="
+          "hash": "cxqglvBjxShPFHQJ2zGhzA=="
         }
       },
       "is_incremental": false,
@@ -2288,7 +2276,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intrastat/toc.html",
-          "hash": "PWPPYNkGbAeYEocfihN31Q=="
+          "hash": "AgY3CDs3rjp4f2/R8iXu5g=="
         }
       },
       "is_incremental": false,
@@ -2641,6 +2629,13 @@
         "skipped_file_count": 0
       },
       "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -2653,13 +2648,6 @@
           "incrementalPhase": "build",
           "total_file_count": 20,
           "skipped_file_count": 20
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
         }
       }
     },
