@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/base_and_invoices.html",
-          "hash": "07gUw4BDllz0WZTzqjbNEQ=="
+          "hash": "poUM+6xJky7lwR6MRO8Pmg=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/faq.html",
-          "hash": "JDdda0o83JpbXFKehdbTew=="
+          "hash": "zV1DK1EREgijtdS92boUqA=="
         }
       },
       "is_incremental": false,
@@ -1791,7 +1791,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/overview.html",
-          "hash": "HlEKujO/RTPY45XSfmQ8LQ=="
+          "hash": "rEZ5eovKTL5Qe9JHeZQZDA=="
         }
       },
       "is_incremental": false,
@@ -1803,7 +1803,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/toc.html",
-          "hash": "hJ5IhXaVZreqcjfH/eo0Sw=="
+          "hash": "RztI70UBLLjsClCvv3iHWA=="
         }
       },
       "is_incremental": false,
@@ -1815,7 +1815,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/usage_scenarios.html",
-          "hash": "qGVK97YuTkVgGDtZ6KlJ9A=="
+          "hash": "U6dMwAe+x8e1A86fpXIZQQ=="
         }
       },
       "is_incremental": false,
@@ -1827,7 +1827,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/cash_management.html",
-          "hash": "B+sr8EFggjPjrWDXwwWXgQ=="
+          "hash": "o2Jru4Y5uJOnLQL0v/X+UA=="
         }
       },
       "is_incremental": false,
@@ -1839,7 +1839,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/faq.html",
-          "hash": "s1i7pHR8w8lnzh9v/GYg5A=="
+          "hash": "WzrcXCOHmkIbh0I1J+vcnQ=="
         }
       },
       "is_incremental": false,
@@ -2225,7 +2225,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/overview.html",
-          "hash": "ymQTWBeRtgzm7kN6P/AkXg=="
+          "hash": "pYr2d277ouctJetwH8qRYA=="
         }
       },
       "is_incremental": false,
@@ -2237,7 +2237,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/toc.html",
-          "hash": "cxqglvBjxShPFHQJ2zGhzA=="
+          "hash": "RWcRqv9tQJKWXi2uT62R0Q=="
         }
       },
       "is_incremental": false,
@@ -2249,7 +2249,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/usage_scenarios.html",
-          "hash": "Az8ZySviL5HOda3T+P8sVA=="
+          "hash": "1z5Q8IbyL+lo5b7+9oZ3pg=="
         }
       },
       "is_incremental": false,
@@ -2261,7 +2261,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intrastat/overview.html",
-          "hash": "ESrEWjwc0Cj8E3qDL99v2Q=="
+          "hash": "+iDBTJZPDYO+oVWFy6RNtQ=="
         }
       },
       "is_incremental": false,
@@ -2276,7 +2276,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intrastat/toc.html",
-          "hash": "AgY3CDs3rjp4f2/R8iXu5g=="
+          "hash": "IR2FLXf6AN8STM3apE0b3Q=="
         }
       },
       "is_incremental": false,
@@ -2288,7 +2288,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/faq.html",
-          "hash": "3vXRoTbK90tZW44pRhivww=="
+          "hash": "NhQXAxzA0iUxlVEe9jA3Vw=="
         }
       },
       "is_incremental": false,
@@ -2410,7 +2410,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/latvian_language.html",
-          "hash": "H3fUhDupuvcRKFpSPRfcfg=="
+          "hash": "jomDJ4FvxF4D7IdZyhPoog=="
         }
       },
       "is_incremental": false,
@@ -2422,7 +2422,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/overview.html",
-          "hash": "cs2HWMozsMtOOF/CmcbeBg=="
+          "hash": "QSlY1xhY/cA7bP9+mVTqfg=="
         }
       },
       "is_incremental": false,
@@ -2434,7 +2434,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/toc.html",
-          "hash": "DXrMnhMaJ2iOHS1X4AVXxA=="
+          "hash": "OwnHXcyvq1lhXx/d+Zmfmg=="
         }
       },
       "is_incremental": false,
@@ -2446,7 +2446,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/usage_scenarios.html",
-          "hash": "wUxBKbLZ6y1gdCXaaQpsZA=="
+          "hash": "rmbrnKwDiWFAnlrIZG1qxg=="
         }
       },
       "is_incremental": false,
@@ -2458,7 +2458,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/support/customer_terms.html",
-          "hash": "tqY1PjQuC9d2bh/2NO2SFQ=="
+          "hash": "ZKbIJV2Bt8CxAp8fY6N0cw=="
         }
       },
       "is_incremental": false,
@@ -2470,7 +2470,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/support/privacy_statement.html",
-          "hash": "muekcS5rKHUs90DsgJCp4g=="
+          "hash": "mZaEYv7sYoi+rRj4PSKEzQ=="
         }
       },
       "is_incremental": false,
@@ -2482,7 +2482,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/support/toc.html",
-          "hash": "bJA5MCo0bLJ0uh0p3IzX8Q=="
+          "hash": "fVdnuMGfSupkEm8hUcwrag=="
         }
       },
       "is_incremental": false,
@@ -2527,7 +2527,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/vat/overview.html",
-          "hash": "2fOtFPOSII7q+pCQJPptiA=="
+          "hash": "9EOoqyR4POpLxqsew9NGCQ=="
         }
       },
       "is_incremental": false,
@@ -2542,7 +2542,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/vat/toc.html",
-          "hash": "uhgAI0kGtZrC4GEalHpqRQ=="
+          "hash": "+frSmBPl4Z6znZoZ7BcFXw=="
         }
       },
       "is_incremental": false,
@@ -2554,7 +2554,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/vat/usage_scenarios.html",
-          "hash": "QmLyp/33P8RsScZVle2jwg=="
+          "hash": "kjx5OWAHvFz/KHNviZDWaQ=="
         }
       },
       "is_incremental": false,
@@ -2566,7 +2566,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/vat/vat.html",
-          "hash": "b2lNSxrvczLTzMHz0TK+6g=="
+          "hash": "646An80U5zsormTFZ0ZgTw=="
         }
       },
       "is_incremental": false,
@@ -2589,7 +2589,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "p7ixbAgtWZ7dhe+OnhF6ag=="
+          "hash": "6EdxAvMRGoIsVAHorLvnVA=="
         }
       },
       "is_incremental": false,
@@ -2601,7 +2601,7 @@
       "output": {
         ".html": {
           "relative_path": "readme.html",
-          "hash": "z4+HohMZmFmP8C3WXA2PkQ=="
+          "hash": "+dVJ9tkr5jeFjgm+TkokuQ=="
         }
       },
       "is_incremental": false,
@@ -2613,7 +2613,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "Lnfj5FMmIM+d/0ku+NmOOg=="
+          "hash": "6ETD7u3NbZTdhKQtiywnZA=="
         }
       },
       "is_incremental": false,
@@ -2623,19 +2623,14 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -2644,10 +2639,17 @@
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 20,
-          "skipped_file_count": 20
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         }
       }
     },
