@@ -85,9 +85,16 @@
 <p>Basic necessary system setup for the use of VAT Reporting Localization for Latvia is created, when applying the configuration package LVI.LVI.VAT.</p>
 <ol>
 <li>Click on the button Search for Page or Report...</li>
+</ol>
+<p><img src="images/vat_help_search.png" alt="alt"></p>
+<ol start="2">
 <li>Type Config. Packages and select Config. Packages from Pages and Tasks</li>
+</ol>
+<p><img src="images/vat_help_confpack001.png" alt="alt"></p>
+<ol start="3">
 <li>Select LVI.LVI.VAT package from list of Config. Packages and press Apply Package.</li>
 </ol>
+<p><img src="images/vat_help_confpack002.png" alt="alt"></p>
 <p>Configuration package ensures the following information:</p>
 <ol>
 <li>Countries/Regions and Country/Region Translations</li>
@@ -113,8 +120,10 @@
 <h2 id="pre-requisites">Pre-requisites</h2>
 <p>The following information should be completed after importing configuration package:</p>
 <ol>
-<li>Click on the button Search for Page or Report...
-<img src="images/vat_help_search.png" alt="alt"></li>
+<li>Click on the button Search for Page or Report...</li>
+</ol>
+<p><img src="images/vat_help_search.png" alt="alt"></p>
+<ol start="2">
 <li>Type Company information and select Company information from Tasks
 <img src="images/vat_help_comp_info.png" alt="alt"></li>
 </ol>
@@ -131,19 +140,18 @@
 </ul>
 <ol start="3">
 <li>Click on the button Search for Page or Report...</li>
+</ol>
+<p><img src="images/vat_help_search.png" alt="alt"></p>
+<ol start="4">
 <li>Type General Ledger Setup and select General Ledger Setup from Administration</li>
 </ol>
-<ul>
-<li>Complete General Ledger Information by selecting a numbering sequence for:</li>
-</ul>
+<p><img src="images/vat_help_genledsetup001.png" alt="alt"></p>
+<ol start="5">
+<li>By applying LVI.LVI.VAT configuration package, the General Ledger Setup shall be modified by adding VAT Statement Appendix related setup.
+The following information should be filled in VAT Buffer fast tab in General Ledger Setup, in order to ensure preparation of VAT Statement Appendixes::</li>
+</ol>
 <ul>
 <li>VAT Buffer Nos.</li>
-</ul>
-<h1 id="setup">Setup</h1>
-<h2 id="general-ledger-setup">General Ledger Setup</h2>
-<p>By applying LVI.LVI.VAT configuration package, the General Ledger Setup shall be modified by adding VAT Statement Appendix related setup.
-The following information should be filled in VAT Buffer fast tab in General Ledger Setup, in order to ensure preparation of VAT Statement Appendixes:</p>
-<ul>
 <li>Default Transaction Limit - enter a limit above which the transaction should be disclosed separately in VAT Appendix</li>
 <li>Business Type (w. Registration No.) - T</li>
 <li>Business Type (wo. Registration No.) - X</li>
@@ -152,15 +160,18 @@ The following information should be filled in VAT Buffer fast tab in General Led
 <li>Report Document No. - External Document No.- Document No.</li>
 <li>Group Partner By - VAT Registration No.</li>
 </ul>
+<p><img src="images/vat_help_genledsetup002.png" alt="alt"></p>
+<h1 id="setup">Setup</h1>
 <h2 id="vat-report-setup">VAT Report Setup</h2>
 <p>By applying LVI.LVI.VAT configuration package, the VAT Report Setup shall be be modified by adding VAT Statement related setup.
 The following information should be filled in Numbering fast tab in VAT Report Setup:</p>
 <ul>
-<li>No. series</li>
-<li>VAT Return No.</li>
+<li>No. series - set to PVNESPARD</li>
+<li>VAT Return No. - set to PVN-DEKL</li>
 </ul>
+<p><img src="images/vat_help_vatrepset.png" alt="alt"></p>
 <h2 id="vat-report-configuration">VAT Report Configuration</h2>
-<p>By applying LVI.LVI.VAT configuration package, the VAT Report Configuration shall be be modified by adding VAT Statement related setup.
+<p>By applying LVI.LVI.VAT configuration package, the VAT Reports Configuration shall be be modified by adding VAT Statement related setup.
 The following information should be filled:</p>
 <ul>
 <li>EC Sales List
@@ -204,9 +215,9 @@ The following information should be filled:</p>
 - VAT 1-3 Local sale disclosure</p>
 <p><strong>Availability:</strong> can be accessed from Search for Page or Report…</p>
 <p><strong>Pre-requisites:</strong> In order to use the functionality, the following steps are required:</p>
-<p><em>Complete General Fast Tab</em></p>
 <ol>
-<li>VAT Buffer List - create New VAT Buffer</li>
+<li>VAT Buffer List - create New VAT Buffer
+<em>Complete General Fast Tab</em></li>
 <li>VAT Buffer No. should come automatically from General Ledger Setup. If it is not completed, enter the VAT Buffer No. manually</li>
 <li>Description - enter the description of the VAT Buffer, for example, &quot;2020 January&quot;</li>
 <li>From Date - enter period starting date for which the VAT Statement Appendix is prepared</li>
@@ -436,7 +447,7 @@ In VAT Statement lines it is required to keep the structure of the main VAT stat
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            © ELVA BALTIC SIA
+            © ELVA BALTIC
             
           </div>
         </div>
