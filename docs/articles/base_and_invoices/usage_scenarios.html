@@ -79,8 +79,10 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="disclaimer">Disclaimer</h1>
 
-<p>Please note that data provided in the steps of user scenarios are sample data and differ from real life date of your company.
-In order to setup</p>
+<p>Please note that data provided in the steps of user scenarios are sample data and differ from real life data of your company.
+This user scenario does not include setup, that is required by Basic Localization for Latvia standard.
+Sample data that are displayed in brackets are intended to provide an indication, what information is expected to be completed at a certain step.
+In terms of real life scenarios, please ensure that your master data are configured in the way as it is recommended by the Setup of this App.</p>
 <h1 id="walkthrough-import-configuration-package">Walkthrough: Import Configuration Package</h1>
 <p>Basic necessary system setup for the use of Basic Localization for Latvia is created, when applying the configuration package LVI.LVI.STANDARD.</p>
 <ol>
@@ -121,7 +123,7 @@ This walkthrough demonstrates the process for entering registration numbers for 
 <p><strong>Roles</strong>: No specific user roles are required.</p>
 <p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
 Cronus Latvia, SIA is required to use customer company registration number on official documents sent to the customer. Your task is to create customer card for new Customer “Nordic Group, SIA” and enter the company registration number.</p>
-<p><strong>Prerequisite</strong>: No specific prerequisites are required.</p>
+<p><strong>Pre-requisites</strong>: Master data catalogues to be created and configured.</p>
 <p><strong>Steps</strong>:</p>
 <ol>
 <li>Click on the button Search for Page or Report...</li>
@@ -131,10 +133,10 @@ Cronus Latvia, SIA is required to use customer company registration number on of
 <li>Type Customer and select Customers from Pages and Tasks</li>
 <li>Press New to create a new Customer Card</li>
 <li>Apply template “Vietējie klienti”</li>
-<li>Enter Customer Company Name “Nordic Group, SIA”</li>
-<li>Enter Address “Elizabetes 57”</li>
-<li>Enter Post Code “LV-1039”</li>
-<li>Enter Customer Company Registration number</li>
+<li>Enter Customer Company Name (Nordic Group, SIA)</li>
+<li>Enter Address (Elizabetes 57)</li>
+<li>Enter Post Code (LV-1039)</li>
+<li>Enter Customer Company Registration number (40003687406)</li>
 </ol>
 <p><img src="images/User_scenarios/Usage_CustomerCard_001.png" alt="alt"></p>
 <ol start="9">
@@ -161,11 +163,11 @@ Cronus Latvia, SIA has signed a contract with local transportation company who w
 <p><img src="images/User_scenarios/Setup_Transporters_002.png" alt="alt"></p>
 <ol start="4">
 <li>Enter Code – JL_VWTRANSP</li>
-<li>Enter Name, Surname – Jānis Liepa for particular Driver</li>
-<li>Enter Vehicle Reg.No.-  LP 147</li>
-<li>Enter Company Name- JL Logistics, SIA</li>
-<li>Enter Company Reg. No.- 40003336661 for Corporate Delivery Service providers</li>
-<li>Enter Company address -K.Ulmaņa gatve 160, Rīga as legal address of the Delivery Service provider</li>
+<li>Enter Name, Surname – (Jānis Liepa) for particular Driver</li>
+<li>Enter Vehicle Reg.No.-  (LP 147)</li>
+<li>Enter Company Name- (JL Logistics, SIA)</li>
+<li>Enter Company Reg. No.- for Corporate Delivery Service providers (40003336661)</li>
+<li>Enter Company address - legal address of the Delivery Service provider (K.Ulmaņa gatve 160, Rīga)</li>
 <li>Transporter card is created and may be used in sales, purchase and transfer documents.</li>
 </ol>
 <p><img src="images/User_scenarios/Setup_Transporters_003.png" alt="alt"></p>
@@ -175,18 +177,19 @@ Cronus Latvia, SIA has signed a contract with local transportation company who w
 <p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
 Cronus Latvia, SIA is required to create a payment of outstanding vendor invoices. Your task is to create a payment file in ISO (SEPA) format that can be uploaded into your commercial bank online.</p>
 <p><strong>Prerequisite</strong>:
+Configured Bank Account Card, Vendor Card, Vendor Bank Account Card, Open Vendor Ledger Entries
 Payment journal batch should have a balancing account mentioned and Allow Payment Export checked.</p>
 <p><img src="images/To_008.png" alt="alt"></p>
 <p><strong>Steps</strong>:
-Create a new payment journal batch for the SWED-EUR.</p>
+Create a new payment journal batch for particular bank card (SWED-EUR).</p>
 <ol>
 <li>Choose the   icon, enter payment journals, and then select the
 related link.</li>
 <li>From the Batch Name field, open the journal batches list.</li>
 <li>On the ribbon, on the Home tab, click New.</li>
-<li>In the Name field, enter DEFAULT.</li>
+<li>In the Name field, enter name for particular batch.</li>
 <li>In the Bal. Account Type field, select Bank Account.</li>
-<li>In the Bal. Account No. field, select SWED-EUR.</li>
+<li>In the Bal. Account No. field, select particular bank account (SWED-EUR).</li>
 <li>In the No.series field, select MAKSZURN.</li>
 <li>In the Allow Payment Export field, place a checkmark.</li>
 </ol>
@@ -197,12 +200,12 @@ related link.</li>
 <p>Run the Suggest Vendor Payments batch job.
 10.	On the ribbon, on the Home tab, click Suggest Vendor Payments.
 11.	Enter the following information on the Options FastTab.
-12.	In the Last Payment Date field, enter 02/28/20.
+12.	In the Last Payment Date field, enter the desired due date from the purchase invoices (02/28/20).
 13.	Place a checkmark in the Summarize per Vendor field.
-14.	In the Posting Date field, enter 02/26/20.
+14.	In the Posting Date field, enter current date (02/26/20).
 15.	Enter the following information on the Vendor FastTab
 16.	In the Where field, enter No.
-17.	In the Is field, enter P000010.
+17.	In the Is field, enter vendor number (P000010).
 18.	Clear any other filters on this FastTab.
 19.	Click OK to run the batch job.
 20.	Click OK to the message about currencies.</p>
@@ -255,7 +258,7 @@ This walkthrough demonstrates the process for assigning foreign payment code for
 <p><strong>Roles</strong>: No specific user roles are required.</p>
 <p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
 Cronus Latvia, SIA is required to assign a foreign payment code for incoming external payment.</p>
-<p><strong>Prerequisite</strong>: List of Foreign Payment codes needs to be completed.</p>
+<p><strong>Prerequisite</strong>: List of Foreign Payment codes needs to be completed. Created Customer Card, Customer Ledger Entries</p>
 <p><strong>Steps</strong>:</p>
 <ol>
 <li>Click on the button Search for Page or Report...</li>
@@ -267,10 +270,10 @@ Cronus Latvia, SIA is required to assign a foreign payment code for incoming ext
 <p><img src="images/To_017.png" alt="alt"></p>
 <ol start="3">
 <li>Create a Payment journal line with an incoming payment from a foreign Customer</li>
-<li>Enter Posting Date 08.08.2019</li>
+<li>Enter Posting Date (08.08.2019)</li>
 <li>Enter Document Type – Payment</li>
 <li>Enter Account Type: Customer</li>
-<li>Enter Account No.: K000030 Alpine Ski House</li>
+<li>Enter Account No.: (K000030 Alpine Ski House)</li>
 <li>Enter Amount: -50 000.00</li>
 <li>Assign Foreign Payment Code: 111</li>
 </ol>
@@ -289,10 +292,10 @@ Cronus Latvia, SIA is required to assign a foreign payment code for incoming ext
 <strong>Printing Options</strong>:</li>
 </ol>
 <ul>
-<li>Year – 2019</li>
-<li>Month – August</li>
-<li>Company Official – Katrīna Pavlova</li>
-<li>Transaction Limit, LCY – 10 000</li>
+<li>Year – enter year (2019)</li>
+<li>Month – enter month (August)</li>
+<li>Company Official – from the list of Company Officials (Katrīna Pavlova)</li>
+<li>Transaction Limit, LCY – (10 000)</li>
 </ul>
 <p><img src="images/To_022.png" alt="alt"></p>
 <ol start="14">
@@ -400,7 +403,7 @@ This walkthrough demonstrates the process for printing sales invoice.</p>
 <p><strong>Roles</strong>: No specific user roles are required.</p>
 <p><strong>Story</strong>: You are Aleksandrs Kuzņecovs, assigned by Cronus International to be a salesperson in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
 Cronus Latvia, SIA has agreed on a sales order with customer K00010 Nordic Group, SIA, therefore your task is to prepare a sales invoice.</p>
-<p><strong>Pre-requisites</strong>: not required</p>
+<p><strong>Pre-requisites</strong>: Master data catalogues to be created and configured.</p>
 <p><strong>Steps</strong>:</p>
 <ol>
 <li>Choose the   icon, enter sales orders, and click the related link.</li>
@@ -449,18 +452,18 @@ Transfer of goods is required to be supported by a delivery note – transfer in
 <p><strong>Roles</strong>: No specific user roles are required.</p>
 <p><strong>Story</strong>: You are Marks Hansons, assigned by Cronus International to be a warehouse employee in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
 Cronus Latvia, SIA requires to transfer goods from location GALVENA to location DAUGAVPILS, therefore your task is to prepare a transfer invoice.</p>
-<p><strong>Pre-requisites</strong>: not required</p>
+<p><strong>Pre-requisites</strong>: Master data catalogues to be created and configured.</p>
 <p><strong>Steps</strong>:</p>
 <ol>
 <li>Choose the   icon, enter transfer orders, and click the related link.</li>
 <li>On the ribbon, on the Home tab, click New to create the transfer order.</li>
 <li>Press ENTER to automatically insert a sales order number in the No. field.</li>
-<li>In the Transfer From field enter GALVENA, in Transfer to field enter DAUGAVPILS, set In-Transit code as CELA.</li>
+<li>In the Transfer From field select location code (GALVENA), in Transfer to field select location code (DAUGAVPILS), set In-Transit code (CELA).</li>
 <li>In the Document Date, Posting Date and Order Date fields, enter 01/30/2019.</li>
 <li>Move to the Lines FastTab.</li>
 <li>In the first line enter the following information:</li>
 <li>In the Type field, enter Item.</li>
-<li>In the No. field, enter 1896-S.</li>
+<li>In the No. field, enter Item No. (1896-S).</li>
 <li>In the Quantity field, enter 2.</li>
 <li>Print Transfer Invoice- Particular Print button LV Transfer Invoice is located in the Ribbon under the TAB ACTIONS, in section GENERAL.</li>
 </ol>
@@ -483,21 +486,21 @@ Cronus Latvia, SIA requires to transfer goods from location GALVENA to location 
 <p><strong>Role</strong>: No specific user roles are required.</p>
 <p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
 Cronus Latvia, SIA is required to record employee expenses for Kārlis Zariņš and create Advance Statement report.</p>
-<p><strong>Pre-requisites</strong>: Vendor card for Paul Smith is already created with specific Vendor Posting Group: AVNOR</p>
+<p><strong>Pre-requisites</strong>: Master data catalogues to be created and configured. Vendor card to be created with specific Vendor Posting Group: AVNOR</p>
 <p><strong>Steps</strong>:</p>
 <ol>
 <li>Choose the   icon, enter purchase invoices, and click the related link.</li>
 <li>On the ribbon, on the Home tab, click New.</li>
 <li>Go to the General FastTab.</li>
-<li>In the Vendor Name field, enter Datorapkalpes tehonologs, SIA.</li>
+<li>In the Vendor Name field, select reuired vendor (Datorapkalpes tehonologs, SIA).</li>
 <li>In the Posting Description, enter “Office and Other Expenses”</li>
 <li>Move to the lines.</li>
 <li>In the Type field, enter G/L account.</li>
-<li>In the No. field, enter 77200.</li>
+<li>In the No. field, enter required expense account (77200).</li>
 <li>In the Quantity field, enter 1.</li>
 <li>In the Direct Unit Cost Excl. VAT field, enter 20.66.</li>
 <li>Go to the Shipping and Payment FastTab.</li>
-<li>In Pay-to select Another Vendor, in next field Name- select Paul Smith</li>
+<li>In Pay-to select Another Vendor, in next field Name- select required employee (Kārlis Zariņš)</li>
 <li>Click Post.</li>
 </ol>
 <p><img src="images/To_050.png" alt="alt"></p>
@@ -514,9 +517,9 @@ Cronus Latvia, SIA is required to record employee expenses for Kārlis Zariņš 
 <strong>Printing Options</strong>: the following printing options are available for this printout:</li>
 </ol>
 <ul>
-<li>Advance statement No. – enter 3</li>
-<li>Vendor No. – select P000070</li>
-<li>Date Filter – set date filter for 03/01/2019.. 03/31/2019</li>
+<li>Advance statement No. – enter number that should appear as document number on the printout (3)</li>
+<li>Vendor No. – select Vendor No. for Advance holder (P000070)</li>
+<li>Date Filter – set date filter according to posted vendor ledger entries (03/01/2019.. 03/31/2019)</li>
 </ul>
 <p><img src="images/To_054.png" alt="alt"></p>
 <ol start="17">
@@ -530,6 +533,7 @@ This walkthrough demonstrates the process for recording and controlling physical
 <p><strong>Role</strong>: no specific role required</p>
 <p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
 Cronus Latvia, SIA is required to perform an inventory stock take at 02/29/2019. Your task is to calculate stock for all locations and prepare Physical Inventory Document.</p>
+<p><strong>Pre-requisites:</strong> Master data catalogues to be created and configured.</p>
 <p><strong>Steps</strong>:</p>
 <ol>
 <li>Choose the  icon, enter Phys. Inventory Journals, and then choose the related link.</li>
@@ -549,11 +553,11 @@ Cronus Latvia, SIA is required to perform an inventory stock take at 02/29/2019.
 <ul>
 <li>
 <ol>
-<li>Person.. 5.Person – select employee D0006, D0004, D0003</li>
+<li>Person.. 5.Person – select employee (D0006, D0004, D0003)</li>
 </ol>
 </li>
-<li>Responsible Person- select employee who is financially responsible for keeping the stock accurate – D0007</li>
-<li>Apply Phys. Inventory Ledger Entry Filters set filter to Posting Date 02/28/2019</li>
+<li>Responsible Person- select employee who is financially responsible for keeping the stock accurate – (D0007)</li>
+<li>Apply Phys. Inventory Ledger Entry Filters set filter to Posting Date (02/28/2019)</li>
 </ul>
 <p><img src="images/To_063.png" alt="alt"></p>
 <ol start="11">
@@ -572,8 +576,8 @@ Cronus Latvia, SIA is required to perform an inventory stock take at 02/29/2019.
 <li>Enter Posting Date- 01/30/2019</li>
 <li>Enter Entry Type- Negative Adjmt.</li>
 <li>Enter Document No.- N0001</li>
-<li>Enter Item No. – 1920-S</li>
-<li>Enter Location - GALVENA</li>
+<li>Enter Item No. – (1920-S)</li>
+<li>Enter Location - (GALVENA)</li>
 <li>Enter Quantity- 1</li>
 <li>Choose the Post action to make the inventory adjustments.</li>
 <li>Press OK to close the journal</li>
@@ -588,7 +592,7 @@ Cronus Latvia, SIA is required to perform an inventory stock take at 02/29/2019.
 <li>Reason – type ‘Damaged Goods’</li>
 <li>
 <ol>
-<li>Person.. 5.Person – select employees from List of Employees D0003, D0004, D0006</li>
+<li>Person.. 5.Person – select employees from List of Employees (D0003, D0004, D0006)</li>
 </ol>
 </li>
 <li>Set Filter Item Ledger Entry</li>
