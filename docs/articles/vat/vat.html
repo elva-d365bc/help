@@ -109,6 +109,8 @@
 <li>VAT Statement Lines</li>
 <li>VAT Report Setup</li>
 <li>VAT Reports Configuration</li>
+<li>No. series</li>
+<li>No. series lines</li>
 </ol>
 <h2 id="permissions-sets">Permissions Sets</h2>
 <p>Use of VAT Reporting Localization for Latvia require the following permission sets to be assigned per user or user group:</p>
@@ -124,12 +126,10 @@
 </ol>
 <p><img src="images/vat_help_search.png" alt="alt"></p>
 <ol start="2">
-<li>Type Company information and select Company information from Tasks
-<img src="images/vat_help_comp_info.png" alt="alt"></li>
+<li>Type Company information and select Company information from Tasks</li>
 </ol>
-<ul>
-<li>Complete Company Information by entering:</li>
-</ul>
+<p><img src="images/vat_help_comp_info.png" alt="alt"></p>
+<p>Complete Company Information by entering:</p>
 <ul>
 <li>Name</li>
 <li>Address</li>
@@ -148,7 +148,7 @@
 <p><img src="images/vat_help_genledsetup001.png" alt="alt"></p>
 <ol start="5">
 <li>By applying LVI.LVI.VAT configuration package, the General Ledger Setup shall be modified by adding VAT Statement Appendix related setup.
-The following information should be filled in VAT Buffer fast tab in General Ledger Setup, in order to ensure preparation of VAT Statement Appendixes::</li>
+The following information should be filled in VAT Buffer fast tab in General Ledger Setup, in order to ensure preparation of VAT Statement Appendixes:</li>
 </ol>
 <ul>
 <li>VAT Buffer Nos.</li>
@@ -189,40 +189,49 @@ The following information should be filled:</p>
 </ul>
 </li>
 </ul>
+<p>![alt](images/U:\D365 BC 2019\Docs\articles\vat\images\vat_help_repconf.png)</p>
 <h2 id="vat-statement-template">VAT Statement Template</h2>
 <p>By applying LVI.LVI.VAT configuration package, the VAT Report Configuration shall be be modified by adding VAT Statement related setup.
 The following information should be filled:</p>
 <ul>
 <li>VAT Statement Report ID - 70151475</li>
 </ul>
+<p><img src="images%5Cvat_help_stmt_templ.png" alt="alt"></p>
 <h2 id="vat-statement-names">VAT Statement Names</h2>
 <p>By applying LVI.LVI.VAT configuration package, the VAT Report Configuration shall be be modified by adding VAT Statement related setup.
 The following information should be filled:</p>
 <ul>
 <li>VAT Statement Name - &quot;PVN2018&quot;</li>
 </ul>
+<p><img src="images%5Cvat_help_stmt.png" alt="alt"></p>
 <h2 id="vat-statement-lines">VAT Statement Lines</h2>
 <p>By applying LVI.LVI.VAT configuration package, the VAT Report Configuration shall be be modified by adding VAT Statement related setup.
 The following information should be filled:</p>
 <ul>
 <li>VAT Statement lines for VAT Statement Name - &quot;PVN2018&quot;</li>
 </ul>
+<p><img src="images%5Cvat_help_stmt_struct.png" alt="alt"></p>
 <h1 id="how-to-use">How to use</h1>
 <h2 id="how-to-use-vat-buffer">How to use: VAT Buffer</h2>
-<p><strong>Purpose:</strong> VAT Buffer is used in order to prepare VAT Statement Appendixes
-- VAT 1-1 Local purchase disclosure
-- VAT 1-2 EU purchase disclosure
-- VAT 1-3 Local sale disclosure</p>
+<p><strong>Purpose:</strong> VAT Buffer is used in order to prepare VAT Statement Appendixes</p>
+<ul>
+<li>VAT 1-1 Local purchase disclosure</li>
+<li>VAT 1-2 EU purchase disclosure</li>
+<li>VAT 1-3 Local sale disclosure</li>
+</ul>
 <p><strong>Availability:</strong> can be accessed from Search for Page or Report…</p>
+<p><img src="images%5Cvat_help_searchVB.png" alt="alt"></p>
 <p><strong>Pre-requisites:</strong> In order to use the functionality, the following steps are required:</p>
 <ol>
-<li>VAT Buffer List - create New VAT Buffer
-<em>Complete General Fast Tab</em></li>
-<li>VAT Buffer No. should come automatically from General Ledger Setup. If it is not completed, enter the VAT Buffer No. manually</li>
-<li>Description - enter the description of the VAT Buffer, for example, &quot;2020 January&quot;</li>
-<li>From Date - enter period starting date for which the VAT Statement Appendix is prepared</li>
-<li>To Date - enter period starting date for which the VAT Statement Appendix is prepared</li>
+<li>VAT Buffer List - create New VAT Buffer</li>
 </ol>
+<p><img src="images%5Cvat_help_VB_new.png" alt="alt"></p>
+<p><em>Complete General Fast Tab</em>
+2. VAT Buffer No. should come automatically from General Ledger Setup. If it is not completed, enter the VAT Buffer No. manually
+3. Description - enter the description of the VAT Buffer, for example, &quot;2020 January&quot;
+4. From Date - enter period starting date for which the VAT Statement Appendix is prepared
+5. To Date - enter period starting date for which the VAT Statement Appendix is prepared</p>
+<p><img src="images%5Cvat_help_VB_Gen.png" alt="alt"></p>
 <p><em>Complete Setup Fast Tab</em></p>
 <ol>
 <li>G/L Account No. Filter (inland) - enter VAT Accounts that are used for local purchase transactions and inserted in VAT Posting Setup as Purchase VAT Accounts</li>
@@ -234,11 +243,16 @@ The following information should be filled:</p>
 <li>Report Document - select which document number is to be used as Report Document No. and disclosed in VAT Statement Appendix  &quot;External Document No., Document No.&quot; or &quot;Document No.&quot;</li>
 <li>Group Partner By - select whether the entries should be grouped by VAT Registration No. or Company Registration No.</li>
 </ol>
+<p><img src="images%5Cvat_help_VB_Set.png" alt="alt"></p>
 <p><em>Create Lines</em></p>
 <ol>
 <li>In the Ribbon press &quot;Suggest Lines&quot; function and OK</li>
-<li>The VAT Buffer get populated by transaction lines, that contain the following information:</li>
 </ol>
+<p><img src="images%5Cvat_help_VB_Sugg.png" alt="alt"></p>
+<ol start="2">
+<li>The VAT Buffer gets populated by transaction lines, that contain the following information:</li>
+</ol>
+<p><img src="images%5Cvat_help_VB_Sugg2.png" alt="alt"></p>
 <ul>
 <li><p>Line Type - for VAT reporting purposes</p>
 <ul>
@@ -339,18 +353,51 @@ The following information should be filled:</p>
 </li>
 <li><p>Grouping Level No. - group level number</p>
 </li>
-<li><p>System-Created- checked if line is suggested by [!INCLUDE [nav_name] (../includes/nav_name.md)] , unchecked if user made modifications to line</p>
+<li><p>System-Created- checked if line is suggested by VAT Reporting Localization for Latvia, unchecked if user made modifications to line</p>
 </li>
 </ul>
-<p><em>Note</em>
-Once the lines are created in VAT Buffer, they are not updated, if any postings are done within the period, that is collected inside the VAT Buffer.
-In order to update the lines in VAt Buffer it is required to press &quot;Delete All Lines&quot; in Ribbon, then press &quot;Suggest Lines&quot; once more.
-<em>Print VAT Statement Appendix</em></p>
+<p><img src="images%5Cvat_help_VB_Sugg3.png" alt="alt"></p>
+<p><strong>Note</strong></p>
+<p>Once the lines are created in VAT Buffer, they are not updated, if any postings are done within the period, that is collected inside the VAT Buffer.
+In order to update the lines in VAt Buffer it is required to press &quot;Delete All Lines&quot; in Ribbon, then press &quot;Suggest Lines&quot; once more.</p>
+<p><strong>Print VAT Statement Appendix</strong></p>
 <ol>
 <li>VAT Buffer status needs to be set to Released, using &quot;Release&quot; button in the Ribbon.</li>
 <li>In the Ribbon press &quot;Print VAT Appendix&quot;</li>
 <li>Select &quot;Prepared by&quot; - the responsible employee, who prepared the VAT Statement Appendix from the list of Employees. By selecting &quot;Prepared by&quot;, Employee card data are re-used: Name, Surname, Job title, Phone No.</li>
 <li>VAT Statement Appendix can be sent to Preview, PDF, Excel, Word.</li>
+</ol>
+<p><img src="images%5Cvat_help_VB_print.png" alt="alt"></p>
+<h2 id="how-to-use-ec-sales-list-reports">How to use EC Sales List Reports</h2>
+<p><strong>Purpose:</strong> EC Sales List Report is used in order to prepare VAT Statement Appendixes</p>
+<ul>
+<li>VAT 2 EU sale disclosure</li>
+<li>VAT 3 Correction of EU sale disclosure</li>
+</ul>
+<p><strong>Availability:</strong> can be accessed from Search for Page or Report…</p>
+<p><img src="images%5Cvat_help_searchEC.png" alt="alt"></p>
+<p><strong>Pre-requisites:</strong> In order to use the functionality, the following steps are required:</p>
+<ol>
+<li>EC Sales List Reports - create New EC Sales List Report</li>
+</ol>
+<p><img src="images%5Cvat_EC_new.png" alt="alt"></p>
+<p><em>Complete General Fast Tab</em></p>
+<ol>
+<li>No. should come automatically from VAT Report Setup. If it is not completed, enter the No. Series manually</li>
+<li>Description - enter the description of the EC SAles List Report, for example, &quot;2020 January&quot;</li>
+<li>VAT Report Version - select approporiate EC Sales List Report Version</li>
+<li>VAT Report Type</li>
+</ol>
+<ul>
+<li>Standard</li>
+<li>Corrective</li>
+<li>Supplementary</li>
+</ul>
+<p><img src="images%5Cvat_help_EC_Gen.png" alt="alt"></p>
+<p><em>Create Lines</em></p>
+<ol>
+<li>In the Ribbon press &quot;Suggest Lines&quot; function and OK
+<img src="images%5Cvat_help_EC_Sugg.png" alt="alt"></li>
 </ol>
 <h2 id="how-to-use-vat-statement">How to use: VAT Statement</h2>
 <p><strong>Purpose:</strong> VAT Statement is used to set filters for VAT or General Ledger Entries, in order to prepare VAT Return.</p>

@@ -2550,7 +2550,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/vat/faq.html",
-          "hash": "5Xx89U5O7VrRbrG3NO9nKQ=="
+          "hash": "jduhD7DUnF4Arl0A3DTQOw=="
         }
       },
       "is_incremental": false,
@@ -2562,6 +2562,116 @@
       "output": {
         "resource": {
           "relative_path": "articles/vat/images/Thumbs.db"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_EC_new.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_EC_new.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_EC_Gen.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_EC_Gen.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_EC_Sugg.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_EC_Sugg.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_VB_Gen.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_VB_Gen.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_VB_Set.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_VB_Set.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_VB_Sugg.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_VB_Sugg.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_VB_Sugg2.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_VB_Sugg2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_VB_Sugg3.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_VB_Sugg3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_VB_new.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_VB_new.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_VB_print.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_VB_print.png"
         }
       },
       "is_incremental": false,
@@ -2624,10 +2734,76 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_repconf.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_repconf.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "articles/vat/images/vat_help_search.png",
       "output": {
         "resource": {
           "relative_path": "articles/vat/images/vat_help_search.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_searchEC.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_searchEC.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_searchVB.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_searchVB.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_stmt.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_stmt.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_stmt_struct.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_stmt_struct.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_stmt_templ.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_stmt_templ.png"
         }
       },
       "is_incremental": false,
@@ -2681,12 +2857,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "articles/vat/vat.md",
       "output": {
         ".html": {
           "relative_path": "articles/vat/vat.html",
-          "hash": "PQm8cpvjd7CxMhFqIyHMBA=="
+          "hash": "xblZQgkxnIxjw6GjY2Z8Mg=="
         }
       },
       "is_incremental": false,
@@ -2762,16 +2941,16 @@
         "full_build_reason_code": "ConfigChanged"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ResourceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
