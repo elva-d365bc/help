@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "D:/STDB/EB-LV-D365BC14/Docs",
+  "source_base_path": "D:/STDB/EB-LV-D365BC16/Docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/base_and_invoices.html",
-          "hash": "RAU5KBH/Hgvd4vy9JDaYMg=="
+          "hash": "sOO4iyxIqd/yT0Qxsx7qkA=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/faq.html",
-          "hash": "uSgTlgirBvAmKcHrVdpoKA=="
+          "hash": "IiLKe2e431ttMCETtaZPxQ=="
         }
       },
       "is_incremental": false,
@@ -1802,7 +1802,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/overview.html",
-          "hash": "Xucc0a+cC926eQXQ9Ukysg=="
+          "hash": "m/c3N5liwPewn58mlOMz6g=="
         }
       },
       "is_incremental": false,
@@ -1826,7 +1826,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/usage_scenarios.html",
-          "hash": "ngbH0JOTG8IS1mvnidRQig=="
+          "hash": "CKh1+qvAkHFuJjppEgGiJQ=="
         }
       },
       "is_incremental": false,
@@ -1838,7 +1838,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/cash_management.html",
-          "hash": "cN5bUeMBSLbqeIk8B7xPag=="
+          "hash": "sURCaJXUV0Nb3CecFFdkmw=="
         }
       },
       "is_incremental": false,
@@ -1850,7 +1850,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/faq.html",
-          "hash": "RVixhloWjrFZzJCeJLqtkg=="
+          "hash": "uF780yxotBlWup2pRkJceg=="
         }
       },
       "is_incremental": false,
@@ -2236,7 +2236,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/overview.html",
-          "hash": "kP4B1UuYdaCHcWkmr4cHlQ=="
+          "hash": "bmc6JcduRzH4SUVAAmiAFg=="
         }
       },
       "is_incremental": false,
@@ -2260,7 +2260,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/usage_scenarios.html",
-          "hash": "xCAZ8K+IM+yFKsgl+z46Og=="
+          "hash": "kl783hHplTKJ4Scf0Ov2uQ=="
         }
       },
       "is_incremental": false,
@@ -2296,7 +2296,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intrastat/overview.html",
-          "hash": "0N9Hhf9uhyRd33nSSwXAMg=="
+          "hash": "FSZ1nonQjqvPVTfCQds4nw=="
         }
       },
       "is_incremental": false,
@@ -2332,7 +2332,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/faq.html",
-          "hash": "/LHm463ei+GPtF5U1q4hzw=="
+          "hash": "XlfdJYVLo+Cw0ebG29eGhA=="
         }
       },
       "is_incremental": false,
@@ -2344,6 +2344,50 @@
       "output": {
         "resource": {
           "relative_path": "articles/latvian_language/images/Thumbs.db"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/latvian_language/images/Use_001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/latvian_language/images/Use_001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/latvian_language/images/Use_002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/latvian_language/images/Use_002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/latvian_language/images/Use_003.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/latvian_language/images/Use_003.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/latvian_language/images/Use_004.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/latvian_language/images/Use_004.png"
         }
       },
       "is_incremental": false,
@@ -2454,7 +2498,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/latvian_language.html",
-          "hash": "+yW4snXGqTx/eT1TdhqH9Q=="
+          "hash": "gArvEUyns/k+J8FJFH4AVA=="
         }
       },
       "is_incremental": false,
@@ -2466,7 +2510,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/overview.html",
-          "hash": "AjKE0CCvXtVBHTl40qP2QA=="
+          "hash": "SpgsZb9dGSijB/wwh0ZSkg=="
         }
       },
       "is_incremental": false,
@@ -2478,7 +2522,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/promo.html",
-          "hash": "gIek6RIzfidp7goz39+zGA=="
+          "hash": "dl3HFLud0Lr+7XU18TrvDw=="
         }
       },
       "is_incremental": false,
@@ -2502,7 +2546,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/usage_scenarios.html",
-          "hash": "9hlKRCUK+lXgqWyd1m8QjQ=="
+          "hash": "nktAVhtIHhNEojKxE6vChA=="
         }
       },
       "is_incremental": false,
@@ -2550,7 +2594,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/vat/faq.html",
-          "hash": "jduhD7DUnF4Arl0A3DTQOw=="
+          "hash": "Oll0DwAOGWyxe0B8gM41BA=="
         }
       },
       "is_incremental": false,
@@ -2569,17 +2613,6 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/vat/images/vat_EC_new.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/vat/images/vat_EC_new.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "articles/vat/images/vat_help_EC_Gen.png",
       "output": {
         "resource": {
@@ -2591,10 +2624,54 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/vat/images/vat_help_EC_Sugg.png",
+      "source_relative_path": "articles/vat/images/vat_help_EC_Sugg001.png",
       "output": {
         "resource": {
-          "relative_path": "articles/vat/images/vat_help_EC_Sugg.png"
+          "relative_path": "articles/vat/images/vat_help_EC_Sugg001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_EC_Sugg002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_EC_Sugg002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_EC_new.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_EC_new.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_EC_print001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_EC_print001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_EC_print002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_EC_print002.png"
         }
       },
       "is_incremental": false,
@@ -2668,10 +2745,98 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/vat/images/vat_help_VB_print.png",
+      "source_relative_path": "articles/vat/images/vat_help_VB_print001.png",
       "output": {
         "resource": {
-          "relative_path": "articles/vat/images/vat_help_VB_print.png"
+          "relative_path": "articles/vat/images/vat_help_VB_print001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_VB_print002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_VB_print002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_VR_Export001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_VR_Export001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_VR_Export002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_VR_Export002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_VR_Gen.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_VR_Gen.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_VR_Sugg001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_VR_Sugg001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_VR_Sugg002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_VR_Sugg002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_VR_Sugg003.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_VR_Sugg003.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_VR_new.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_VR_new.png"
         }
       },
       "is_incremental": false,
@@ -2767,6 +2932,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_searchStmt.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_searchStmt.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "articles/vat/images/vat_help_searchVB.png",
       "output": {
         "resource": {
@@ -2778,10 +2954,54 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/vat/images/vat_help_stmt.png",
+      "source_relative_path": "articles/vat/images/vat_help_searchVR.png",
       "output": {
         "resource": {
-          "relative_path": "articles/vat/images/vat_help_stmt.png"
+          "relative_path": "articles/vat/images/vat_help_searchVR.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_stmt001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_stmt001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_stmt002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_stmt002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_stmt_print001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_stmt_print001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_stmt_print002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_stmt_print002.png"
         }
       },
       "is_incremental": false,
@@ -2826,7 +3046,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/vat/overview.html",
-          "hash": "2bCBwgEYFfH24nPLHYMn2A=="
+          "hash": "oenwIQx7WOPqhh27I6dCKA=="
         }
       },
       "is_incremental": false,
@@ -2850,22 +3070,19 @@
       "output": {
         ".html": {
           "relative_path": "articles/vat/usage_scenarios.html",
-          "hash": "f6YDUGZz+GhHYMfldri1oA=="
+          "hash": "z8oUjZ+8eLIU4EDa1myqJw=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "articles/vat/vat.md",
       "output": {
         ".html": {
           "relative_path": "articles/vat/vat.html",
-          "hash": "xblZQgkxnIxjw6GjY2Z8Mg=="
+          "hash": "HtETytiajxxLigKoTmaK3w=="
         }
       },
       "is_incremental": false,
@@ -2899,7 +3116,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "bA9MBRxrpMtoY5hbeUd5Wg=="
+          "hash": "akvKLtLnf4LcANO9MYJ/ww=="
         }
       },
       "is_incremental": false,
@@ -2923,7 +3140,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "s90GSMA/NFKWO+KAZpBF6A=="
+          "hash": "G5kBae4zHz0DmxObOz94Rw=="
         }
       },
       "is_incremental": false,
@@ -2933,12 +3150,10 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because config changed.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ConfigChanged"
+        "skipped_file_count": 0
       },
       "processors": {
         "ResourceDocumentProcessor": {
@@ -2948,17 +3163,17 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 25,
+          "skipped_file_count": 6
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 25,
           "skipped_file_count": 0
         }
       }

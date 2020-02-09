@@ -80,9 +80,9 @@
 <h1 id="get-started">Get started</h1>
 
 <h2 id="role-center">Role Center</h2>
-<p>In order to use VAT Reporting Localization for Latvia, no specific role center is required, because the functionality can be accessed via search pane.</p>
+<p>In order to use Latvian VAT Reporting Localization, no specific role center is required, because the functionality can be accessed via search pane.</p>
 <h2 id="configuration-package-import">Configuration package import</h2>
-<p>Basic necessary system setup for the use of VAT Reporting Localization for Latvia is created, when applying the configuration package LVI.LVI.VAT.</p>
+<p>Basic necessary system setup for the use of Latvian VAT Reporting Localization is created, when applying the configuration package LVI.LVI.VAT.</p>
 <ol>
 <li>Click on the button Search for Page or Report...</li>
 </ol>
@@ -109,11 +109,11 @@
 <li>VAT Statement Lines</li>
 <li>VAT Report Setup</li>
 <li>VAT Reports Configuration</li>
-<li>No. series</li>
-<li>No. series lines</li>
+<li>No. Series</li>
+<li>No. Series lines</li>
 </ol>
 <h2 id="permissions-sets">Permissions Sets</h2>
-<p>Use of VAT Reporting Localization for Latvia require the following permission sets to be assigned per user or user group:</p>
+<p>Use of Latvian VAT Reporting Localization require the following permission sets to be assigned per user or user group:</p>
 <ul>
 <li>LV_VB_VIEW – designed for viewing VAT Buffer List and selecting</li>
 <li>LV_VB_EDIT- designed for creating, editing and deleting VAT Buffer List</li>
@@ -129,7 +129,9 @@
 <li>Type Company information and select Company information from Tasks</li>
 </ol>
 <p><img src="images/vat_help_comp_info.png" alt="alt"></p>
-<p>Complete Company Information by entering:</p>
+<ul>
+<li>Complete Company Information by entering:</li>
+</ul>
 <ul>
 <li>Name</li>
 <li>Address</li>
@@ -138,35 +140,34 @@
 <li>Registration No.</li>
 <li>VAT Registration No.</li>
 </ul>
-<ol start="3">
+<h1 id="setup">Setup</h1>
+<h2 id="general-ledger-setup">General Ledger Setup</h2>
+<p>By applying LVI.LVI.VAT configuration package, the General Ledger Setup shall be modified by adding VAT Statement Appendix related setup.</p>
+<ol>
 <li>Click on the button Search for Page or Report...</li>
 </ol>
 <p><img src="images/vat_help_search.png" alt="alt"></p>
-<ol start="4">
+<ol start="2">
 <li>Type General Ledger Setup and select General Ledger Setup from Administration</li>
 </ol>
 <p><img src="images/vat_help_genledsetup001.png" alt="alt"></p>
-<ol start="5">
-<li>By applying LVI.LVI.VAT configuration package, the General Ledger Setup shall be modified by adding VAT Statement Appendix related setup.
-The following information should be filled in VAT Buffer fast tab in General Ledger Setup, in order to ensure preparation of VAT Statement Appendixes:</li>
-</ol>
+<p>The following information should be filled in VAT Buffer fast tab in General Ledger Setup, in order to ensure preparation of VAT Statement Appendixes:</p>
 <ul>
-<li>VAT Buffer Nos.</li>
+<li>VAT Buffer Nos. - select No.Series for VAT Buffer</li>
 <li>Default Transaction Limit - enter a limit above which the transaction should be disclosed separately in VAT Appendix</li>
 <li>Business Type (w. Registration No.) - T</li>
 <li>Business Type (wo. Registration No.) - X</li>
-<li>Default Partner Limit - Specifies the threshold in LCY, above which individual transactions are lower than the threshold, but in the aggregate larger than the limit, must be splited by the partners</li>
+<li>Default Partner Limit - Specifies the threshold in LCY, above which individual transactions are lower than the threshold, but in the aggregate larger than the limit, must be split by the partners</li>
 <li>Business Type (Partner) - V</li>
 <li>Report Document No. - External Document No.- Document No.</li>
 <li>Group Partner By - VAT Registration No.</li>
 </ul>
 <p><img src="images/vat_help_genledsetup002.png" alt="alt"></p>
-<h1 id="setup">Setup</h1>
 <h2 id="vat-report-setup">VAT Report Setup</h2>
 <p>By applying LVI.LVI.VAT configuration package, the VAT Report Setup shall be be modified by adding VAT Statement related setup.
 The following information should be filled in Numbering fast tab in VAT Report Setup:</p>
 <ul>
-<li>No. series - set to PVNESPARD</li>
+<li>No. Series - set to PVNESPARD</li>
 <li>VAT Return No. - set to PVN-DEKL</li>
 </ul>
 <p><img src="images/vat_help_vatrepset.png" alt="alt"></p>
@@ -189,28 +190,28 @@ The following information should be filled:</p>
 </ul>
 </li>
 </ul>
-<p>![alt](images/U:\D365 BC 2019\Docs\articles\vat\images\vat_help_repconf.png)</p>
+<p><img src="images/vat_help_repconf.png" alt="alt"></p>
 <h2 id="vat-statement-template">VAT Statement Template</h2>
 <p>By applying LVI.LVI.VAT configuration package, the VAT Report Configuration shall be be modified by adding VAT Statement related setup.
 The following information should be filled:</p>
 <ul>
 <li>VAT Statement Report ID - 70151475</li>
 </ul>
-<p><img src="images%5Cvat_help_stmt_templ.png" alt="alt"></p>
+<p><img src="images/vat_help_stmt_templ.png" alt="alt"></p>
 <h2 id="vat-statement-names">VAT Statement Names</h2>
 <p>By applying LVI.LVI.VAT configuration package, the VAT Report Configuration shall be be modified by adding VAT Statement related setup.
 The following information should be filled:</p>
 <ul>
 <li>VAT Statement Name - &quot;PVN2018&quot;</li>
 </ul>
-<p><img src="images%5Cvat_help_stmt.png" alt="alt"></p>
+<p><img src="images/vat_help_stmt_templ.png" alt="alt"></p>
 <h2 id="vat-statement-lines">VAT Statement Lines</h2>
 <p>By applying LVI.LVI.VAT configuration package, the VAT Report Configuration shall be be modified by adding VAT Statement related setup.
 The following information should be filled:</p>
 <ul>
 <li>VAT Statement lines for VAT Statement Name - &quot;PVN2018&quot;</li>
 </ul>
-<p><img src="images%5Cvat_help_stmt_struct.png" alt="alt"></p>
+<p><img src="images/vat_help_stmt_struct.png" alt="alt"></p>
 <h1 id="how-to-use">How to use</h1>
 <h2 id="how-to-use-vat-buffer">How to use: VAT Buffer</h2>
 <p><strong>Purpose:</strong> VAT Buffer is used in order to prepare VAT Statement Appendixes</p>
@@ -220,18 +221,31 @@ The following information should be filled:</p>
 <li>VAT 1-3 Local sale disclosure</li>
 </ul>
 <p><strong>Availability:</strong> can be accessed from Search for Page or Report…</p>
-<p><img src="images%5Cvat_help_searchVB.png" alt="alt"></p>
 <p><strong>Pre-requisites:</strong> In order to use the functionality, the following steps are required:</p>
 <ol>
+<li>Imported Configuration Package LVI.LVI.VAT</li>
+</ol>
+<h3 id="create-new-vat-buffer">Create New VAT Buffer</h3>
+<ol>
+<li>Click on the button Search for Page or Report...</li>
+</ol>
+<p><img src="images/vat_help_search.png" alt="alt"></p>
+<ol start="2">
+<li>Type VAT Buffer and select VAT Buffer from Tasks</li>
+</ol>
+<p><img src="images/vat_help_searchVB.png" alt="alt"></p>
+<ol start="3">
 <li>VAT Buffer List - create New VAT Buffer</li>
 </ol>
-<p><img src="images%5Cvat_help_VB_new.png" alt="alt"></p>
-<p><em>Complete General Fast Tab</em>
-2. VAT Buffer No. should come automatically from General Ledger Setup. If it is not completed, enter the VAT Buffer No. manually
-3. Description - enter the description of the VAT Buffer, for example, &quot;2020 January&quot;
-4. From Date - enter period starting date for which the VAT Statement Appendix is prepared
-5. To Date - enter period starting date for which the VAT Statement Appendix is prepared</p>
-<p><img src="images%5Cvat_help_VB_Gen.png" alt="alt"></p>
+<p><img src="images/vat_help_VB_new.png" alt="alt"></p>
+<p><em>Complete General Fast Tab</em></p>
+<ol>
+<li>VAT Buffer No. should come automatically from General Ledger Setup. If it is not completed, enter the VAT Buffer No. manually</li>
+<li>Description - enter the description of the VAT Buffer, for example, &quot;2020 January&quot;</li>
+<li>From Date - enter period starting date for which the VAT Statement Appendix is prepared</li>
+<li>To Date - enter period starting date for which the VAT Statement Appendix is prepared</li>
+</ol>
+<p><img src="images/vat_help_VB_Gen.png" alt="alt"></p>
 <p><em>Complete Setup Fast Tab</em></p>
 <ol>
 <li>G/L Account No. Filter (inland) - enter VAT Accounts that are used for local purchase transactions and inserted in VAT Posting Setup as Purchase VAT Accounts</li>
@@ -243,103 +257,70 @@ The following information should be filled:</p>
 <li>Report Document - select which document number is to be used as Report Document No. and disclosed in VAT Statement Appendix  &quot;External Document No., Document No.&quot; or &quot;Document No.&quot;</li>
 <li>Group Partner By - select whether the entries should be grouped by VAT Registration No. or Company Registration No.</li>
 </ol>
-<p><img src="images%5Cvat_help_VB_Set.png" alt="alt"></p>
+<p><img src="images/vat_help_VB_Set.png" alt="alt"></p>
 <p><em>Create Lines</em></p>
 <ol>
 <li>In the Ribbon press &quot;Suggest Lines&quot; function and OK</li>
 </ol>
-<p><img src="images%5Cvat_help_VB_Sugg.png" alt="alt"></p>
+<p><img src="images/vat_help_VB_Sugg.png" alt="alt"></p>
+<p><img src="images/vat_help_VB_Sugg2.png" alt="alt"></p>
 <ol start="2">
 <li>The VAT Buffer gets populated by transaction lines, that contain the following information:</li>
 </ol>
-<p><img src="images%5Cvat_help_VB_Sugg2.png" alt="alt"></p>
+<p><img src="images/vat_help_VB_Sugg3.png" alt="alt"></p>
+<p><em>Explanation for lines created</em></p>
 <ul>
-<li><p>Line Type - for VAT reporting purposes</p>
+<li>Line Type - for VAT reporting purposes
 <ul>
-<li>Inland</li>
-<li>EU</li>
-<li>Sales</li>
+<li>Inland - indicates Local purchases</li>
+<li>EU - indicates EU purchases</li>
+<li>Sales - indicates Local sales</li>
 </ul>
 </li>
-<li><p>Line No.- line number</p>
-</li>
-<li><p>G/L Entry No. - indicates GL entry number or is blank for several deals in one row</p>
-</li>
-<li><p>VAT Entry No.- indicate VAT entry number or is blank for several deals in one row</p>
-</li>
-<li><p>Posting Date - indicate posting date or is blank for several deals in one row</p>
-</li>
-<li><p>Document Date- indicate date of the document or is blank for several deals in one row</p>
-</li>
-<li><p>Transaction No. - indicate the number of transaction</p>
-</li>
-<li><p>Skip Entry- if checked, then entry is not included for VAT reporting</p>
-</li>
-<li><p>Report Document No. - number of the source document</p>
-</li>
-<li><p>Document No. - number assigned by NAV</p>
-</li>
-<li><p>External Document No.- external document number</p>
-</li>
-<li><p>LV Invoice No.- VAT Reporting Localization for Latvia invoice number</p>
-</li>
-<li><p>Document Type- indicates the type of the document</p>
+<li>Line No.- line number</li>
+<li>G/L Entry No. - indicates GL entry number or is blank for several deals in one row</li>
+<li>VAT Entry No.- indicate VAT entry number or is blank for several deals in one row</li>
+<li>Posting Date - indicate posting date or is blank for several deals in one row</li>
+<li>Document Date- indicate date of the document or is blank for several deals in one row</li>
+<li>Transaction No. - indicate the number of transaction</li>
+<li>Skip Entry- if checked, then entry is not included for VAT reporting</li>
+<li>Report Document No. - number of the source document</li>
+<li>Document No. - number assigned by NAV</li>
+<li>External Document No.- external document number</li>
+<li>Document Type- indicates the type of the document
 <ul>
-<li>Payment</li>
-<li>Invoice</li>
-<li>Credit Memo</li>
-<li>Finance Charge Memo</li>
-<li>Reminder</li>
-<li>Refund</li>
+<li>Payment - in case VAT is calculated as a result of prepayment</li>
+<li>Invoice - in case VAT is calculated as a result of purchase/sales transaction</li>
+<li>Credit Memo - in case VAT is calculated as a result of purchase/sales return transaction</li>
 </ul>
 </li>
-<li><p>Business Type- according to codes of Tax Administration</p>
-</li>
-<li><p>Invoice Is Custom Declaration- displays the invoice as customs declaration in VAT buffer</p>
-</li>
-<li><p>No Grouping - displays the selected entry without grouping</p>
-</li>
-<li><p>EU 3-Party Trade- indicates whether the deal is classified as third party trade</p>
+<li>Business Type- according to codes of Tax Administration</li>
+<li>Invoice Is Custom Declaration- displays the invoice as customs declaration in VAT buffer</li>
+<li>No Grouping - displays the selected entry without grouping</li>
+<li>EU 3-Party Trade- indicates whether the deal is classified as third party trade
 <ul>
 <li>Yes</li>
 <li>No</li>
 </ul>
 </li>
-<li><p>VAT %- indicates the VAT interest rate</p>
-</li>
-<li><p>VAT Declaration Line No. - indicates the VAT declaration line number</p>
-</li>
-<li><p>EU Service - indicates whether the deal is considered as service within EU</p>
-</li>
-<li><p>Vendor No. - vendor number from Vendor List</p>
-</li>
-<li><p>Customer No.- customer number from Customer List</p>
-</li>
-<li><p>Partner No.- Partner number, if transactions involve Companies that are considered as one VAT Group</p>
-</li>
-<li><p>Partner Name- Partner name</p>
-</li>
-<li><p>Partner VAT Registration No.- Partner VAT No.</p>
-</li>
-<li><p>Country/Region Code -</p>
-</li>
-<li><p>Base Amount (LCY)- VAT taxable amount in Local currency</p>
-</li>
-<li><p>VAT Amount (LCY)- VAT amount in Local currency</p>
-</li>
-<li><p>Amount (LCY) - total amount in Local currency</p>
-</li>
-<li><p>Currency Code - currency code</p>
-</li>
-<li><p>Currency Factor- exchange rate, if deal currency differs from local currency</p>
-</li>
-<li><p>Base Amount -</p>
-</li>
-<li><p>VAT Amount</p>
-</li>
-<li><p>Amount</p>
-</li>
-<li><p>Report Document Type</p>
+<li>VAT %- indicates the VAT interest rate</li>
+<li>VAT Declaration Line No. - indicates the VAT declaration line number</li>
+<li>EU Service - indicates whether the deal is considered as service within EU</li>
+<li>Vendor No. - vendor number from Vendor List</li>
+<li>Customer No.- customer number from Customer List</li>
+<li>Partner No.- Partner number, if transactions involve Companies that are considered as one VAT Group</li>
+<li>Partner Name- Partner name</li>
+<li>Partner VAT Registration No.- Partner VAT No.</li>
+<li>Country/Region Code -</li>
+<li>Base Amount (LCY)- VAT taxable amount in Local currency</li>
+<li>VAT Amount (LCY)- VAT amount in Local currency</li>
+<li>Amount (LCY) - total amount in Local currency</li>
+<li>Currency Code - currency code</li>
+<li>Currency Factor- exchange rate, if deal currency differs from local currency</li>
+<li>Base Amount</li>
+<li>VAT Amount</li>
+<li>Amount</li>
+<li>Report Document Type
 <ul>
 <li>Invoice</li>
 <li>Cash Payment</li>
@@ -349,86 +330,137 @@ The following information should be filled:</p>
 <li>Custom Declaration</li>
 </ul>
 </li>
-<li><p>Group Line No. - group line number within Group level</p>
-</li>
-<li><p>Grouping Level No. - group level number</p>
-</li>
-<li><p>System-Created- checked if line is suggested by VAT Reporting Localization for Latvia, unchecked if user made modifications to line</p>
-</li>
+<li>Group Line No. - group line number within Group level</li>
+<li>Grouping Level No. - group level number</li>
+<li>System-Created- checked if line is suggested by Latvian VAT Reporting Localization, unchecked if user made modifications to line</li>
 </ul>
-<p><img src="images%5Cvat_help_VB_Sugg3.png" alt="alt"></p>
+<p><img src="images/vat_help_VB_Sugg3.png" alt="alt"></p>
 <p><strong>Note</strong></p>
 <p>Once the lines are created in VAT Buffer, they are not updated, if any postings are done within the period, that is collected inside the VAT Buffer.
 In order to update the lines in VAt Buffer it is required to press &quot;Delete All Lines&quot; in Ribbon, then press &quot;Suggest Lines&quot; once more.</p>
-<p><strong>Print VAT Statement Appendix</strong></p>
+<p>VAT Buffer is created per each reporting period. In case corrections need to be submitted, then a new VAT Buffer should be created, in order to have the audit trail of the data reported. Therefore it is not advised to make any manual corrections of VAT Buffer lines, because they will not be picked up, once a new VAT Buffer is created. If there are documents represented in VAT Buffer in an incorrect way, then the Accountant should review the each case, reverse the wrong transactions and create correct transactions.</p>
+<h3 id="print-vat-statement-appendix-1-1-1-2-1-3">Print VAT Statement Appendix 1-1, 1-2, 1-3</h3>
 <ol>
 <li>VAT Buffer status needs to be set to Released, using &quot;Release&quot; button in the Ribbon.</li>
 <li>In the Ribbon press &quot;Print VAT Appendix&quot;</li>
 <li>Select &quot;Prepared by&quot; - the responsible employee, who prepared the VAT Statement Appendix from the list of Employees. By selecting &quot;Prepared by&quot;, Employee card data are re-used: Name, Surname, Job title, Phone No.</li>
-<li>VAT Statement Appendix can be sent to Preview, PDF, Excel, Word.</li>
+<li>VAT Statement Appendix can be sent to Preview or printed as PDF, Excel, Word.</li>
 </ol>
-<p><img src="images%5Cvat_help_VB_print.png" alt="alt"></p>
+<p><img src="images/vat_help_VB_print001.png" alt="alt"></p>
+<p><img src="images/vat_help_VB_print002.png" alt="alt"></p>
 <h2 id="how-to-use-ec-sales-list-reports">How to use EC Sales List Reports</h2>
-<p><strong>Purpose:</strong> EC Sales List Report is used in order to prepare VAT Statement Appendixes</p>
+<p><strong>Purpose:</strong> EC Sales List Report is used, in order to prepare VAT Statement Appendixes</p>
 <ul>
 <li>VAT 2 EU sale disclosure</li>
 <li>VAT 3 Correction of EU sale disclosure</li>
 </ul>
 <p><strong>Availability:</strong> can be accessed from Search for Page or Report…</p>
-<p><img src="images%5Cvat_help_searchEC.png" alt="alt"></p>
-<p><strong>Pre-requisites:</strong> In order to use the functionality, the following steps are required:</p>
+<p><img src="images/vat_help_searchEC.png" alt="alt"></p>
+<p><strong>Pre-requisites:</strong>  In order to use the functionality, the following steps are required:</p>
 <ol>
+<li>Imported Configuration Package LVI.LVI.VAT</li>
+</ol>
+<h3 id="create-new-ec-sales-list-reports">Create New EC Sales List Reports</h3>
+<ol>
+<li>Click on the button Search for Page or Report...</li>
+</ol>
+<p><img src="images/vat_help_search.png" alt="alt"></p>
+<ol start="2">
+<li>Type EC Sales List Reports and select Sales List Reports from Reports and Analysis</li>
+</ol>
+<p><img src="images/vat_help_searchEC.png" alt="alt"></p>
+<ol start="3">
 <li>EC Sales List Reports - create New EC Sales List Report</li>
 </ol>
-<p><img src="images%5Cvat_EC_new.png" alt="alt"></p>
+<p><img src="images/vat_help_EC_new.png" alt="alt"></p>
 <p><em>Complete General Fast Tab</em></p>
 <ol>
 <li>No. should come automatically from VAT Report Setup. If it is not completed, enter the No. Series manually</li>
 <li>Description - enter the description of the EC SAles List Report, for example, &quot;2020 January&quot;</li>
-<li>VAT Report Version - select approporiate EC Sales List Report Version</li>
+<li>VAT Report Version - select EC Sales List Report Version</li>
 <li>VAT Report Type</li>
 </ol>
 <ul>
-<li>Standard</li>
-<li>Corrective</li>
+<li>Standard - for VAT Statement Appendix VAT2</li>
+<li>Corrective - for VAT Statement Appendix VAT3</li>
 <li>Supplementary</li>
 </ul>
-<p><img src="images%5Cvat_help_EC_Gen.png" alt="alt"></p>
+<ol start="5">
+<li>Original Report No. - should be selected, if only VAT Report Type is set to Corrective</li>
+<li>Period Year</li>
+<li>Period Type</li>
+<li>Period No.</li>
+</ol>
+<p><img src="images/vat_help_EC_Gen.png" alt="alt"></p>
 <p><em>Create Lines</em></p>
 <ol>
-<li>In the Ribbon press &quot;Suggest Lines&quot; function and OK
-<img src="images%5Cvat_help_EC_Sugg.png" alt="alt"></li>
+<li>In the Ribbon press &quot;Suggest Lines&quot; function
+<img src="images/vat_help_EC_Sugg001.png" alt="alt"></li>
 </ol>
+<p><em>Explanation for lines created</em></p>
+<ul>
+<li>Line No.- report Row No.</li>
+<li>Report No.</li>
+<li>Country Code</li>
+<li>Customer VAT. Reg. No.</li>
+<li>Total Value of Supplies</li>
+<li>Transaction Indicator</li>
+<li>Line Type</li>
+</ul>
+<p><img src="images/vat_help_EC_Sugg002.png" alt="alt"></p>
+<h3 id="print-vat-statement-appendix-2-3">Print VAT Statement Appendix 2, 3</h3>
+<ol>
+<li>EC Sales List Report status needs to be set to Released, using &quot;Release&quot; button in the Ribbon.</li>
+<li>In the Ribbon press &quot;Print&quot;</li>
+<li>Select &quot;Prepared by&quot; - the responsible employee, who prepared the VAT Statement Appendix from the list of Employees. By selecting &quot;Prepared by&quot;, Employee card data are re-used: Name, Surname, Job title, Phone No.</li>
+<li>VAT Statement Appendix can be sent to Preview or printed as PDF, Excel, Word.</li>
+</ol>
+<p><img src="images/vat_help_EC_print001.png" alt="alt"></p>
+<p><img src="images/vat_help_EC_print002.png" alt="alt"></p>
+<p><strong>Note</strong>
+Please note that based on the VAT Report Type selected, the following printout shall be prepared:</p>
+<ul>
+<li>Standard - for VAT Statement Appendix VAT2</li>
+<li>Corrective - for VAT Statement Appendix VAT3</li>
+</ul>
 <h2 id="how-to-use-vat-statement">How to use: VAT Statement</h2>
 <p><strong>Purpose:</strong> VAT Statement is used to set filters for VAT or General Ledger Entries, in order to prepare VAT Return.</p>
 <p><strong>Availability:</strong> can be accessed from Search for Page or Report…</p>
 <p><strong>Pre-requisites:</strong> In order to use the functionality, the following steps are required:</p>
+<ol>
+<li>Imported Configuration Package LVI.LVI.VAT</li>
+</ol>
+<h3 id="complete-vat-statement-lines">Complete VAT Statement Lines</h3>
+<ol>
+<li>Click on the button Search for Page or Report...</li>
+</ol>
+<p><img src="images/vat_help_search.png" alt="alt"></p>
+<ol start="2">
+<li>Type VAT Statements and select VAT Statements from Tasks</li>
+</ol>
+<p><img src="images/vat_help_searchStmt.png" alt="alt"></p>
+<ol start="3">
+<li>Select Batch Name - PVN2018, and press Edit</li>
+</ol>
+<p><img src="images/vat_help_stmt001.png" alt="alt"></p>
+<p><img src="images/vat_help_stmt002.png" alt="alt"></p>
+<p>In VAT Statement lines it is required to keep the structure of the main VAT statement lines, according to LV local legislation.</p>
 <ul>
-<li><p>VAT Statement template - VAT Statement Report ID - 70151475
-*Complete VAT Statement Lines&quot;
-Open VAT Statements list, select &quot;PVN2018&quot; press &quot;Edit VAT Statement&quot; in the Ribbon.
-In VAT Statement lines it is required to keep the structure of the main VAT statement lines, according to LV local legislation.</p>
-</li>
-<li><p>Row No.– row no. for VAT Statement lines should match the State Revenue Service VAT statement lines; for lines that are used for additional calculations - any number can be used.</p>
-</li>
-<li><p>Description – entered description should match the State Revenue Service VAT statement lines; for lines that are used for additional calculation - free text can be used</p>
-</li>
-<li><p>Box. No. - this field should indicate to which State Revenue VAT Statement line does the calculated amount refer.</p>
-</li>
-<li><p>Type – indicates which entries are used for calculation. Following options are available:</p>
+<li>Row No.– row no. for VAT Statement lines should match the State Revenue Service VAT statement lines; for lines that are used for additional calculations - any number can be used.</li>
+<li>Description – entered description should match the State Revenue Service VAT statement lines; for lines that are used for additional calculation - free text can be used</li>
+<li>Box. No. - this field should indicate to which State Revenue VAT Statement line does the calculated amount refer.</li>
+<li>Type – indicates which entries are used for calculation. Following options are available:
 <ul>
-<li>Account Totalling – used for filtering particular G/L entries</li>
+<li>Account Totaling – used for filtering particular G/L entries</li>
 <li>VAT Entries -  used for filtering of VAT entries</li>
-<li>Row Totalling - used for filtering of VAT Statement rows</li>
+<li>Row Totaling - used for filtering of VAT Statement rows</li>
 <li>Description - used for rows without amounts</li>
 <li>Math - rows contains calculus, using Math Operator, Operand 1 and Operand 2; this type is used for calculating VAT Proportion</li>
 </ul>
 </li>
-<li><p>Row Totalling - if row type is set to Row Totalling, then here it is required to enter the rows</p>
-</li>
-<li><p>Account Totalling - if row type is set to Account Totalling, then here it is required to enter G/L Accounts</p>
-</li>
-<li><p>Amount type - if row type is set to VAT entries, then here it is possible to define</p>
+<li>Row Totaling - if row type is set to Row Totaling, then here it is required to enter the rows</li>
+<li>Account Totaling - if row type is set to Account Totaling, then here it is required to enter G/L Accounts</li>
+<li>Amount type - if row type is set to VAT entries, then here it is possible to define
 <ul>
 <li>Base Amount- for displaying taxable base amount</li>
 <li>VAT Amount- for displaying VAT amount</li>
@@ -436,14 +468,14 @@ In VAT Statement lines it is required to keep the structure of the main VAT stat
 <li>Unrealized VAT Amount- for displaying unrealized VAT amount</li>
 </ul>
 </li>
-<li><p>G/L Amount type - if row type is set to Account Totalling, then here it is possible to define</p>
+<li>G/L Amount type - if row type is set to Account Totaling, then here it is possible to define
 <ul>
 <li>Net change - for displaying net change</li>
 <li>Debit Amount- for displaying only debit amounts</li>
 <li>Credit Amount- for displaying only credit amounts</li>
 </ul>
 </li>
-<li><p>Math Operator - used for defining calculation type</p>
+<li>Math Operator - used for defining calculation type
 <ul>
 <li>Add - returns row value of expression &quot;Operand 1&quot; + &quot;Operand 2&quot;</li>
 <li>Substract - returns row value of expression &quot;Operand 1&quot; - &quot;Operand 2&quot;</li>
@@ -451,25 +483,154 @@ In VAT Statement lines it is required to keep the structure of the main VAT stat
 <li>Divide - returns row value of expression &quot;Operand 1&quot; / &quot;Operand 2&quot; (if Operand 2 = 0, then returns 0)</li>
 <li>Calculate % - returns row value of expression &quot;Operand 1&quot; / &quot;Operand 2&quot; * 100 (if Operand 2 = 0, then returns 0)</li>
 <li>Use % - returns row value of expression &quot;Operand 1&quot; / &quot;Operand 2&quot; / 100</li>
-<li>Min - return the lowest value of Row Totalling</li>
-<li>Max - return the highest value of Row Totalling</li>
+<li>Min - return the lowest value of Row Totaling</li>
+<li>Max - return the highest value of Row Totaling</li>
 </ul>
 </li>
-<li><p>Gen. Posting Type, Gen. Bus. Posting Group, Gen. Prod. Posting Group, VAT Bus. Posting Group, VAT Prod. Posting Group - fields for additional filtering by posintg groups</p>
-</li>
-<li><p>Print With - ensures possibility to print with opposite sign;</p>
-</li>
-<li><p>Round - ensures possibility to round numbers; 0.01 by default</p>
-</li>
-<li><p>Rounding type - nearest, upwards, downwards; fields is used for proportion calculation</p>
-</li>
-<li><p>Calculate with - ensures possibility to use opposite sign for calculation</p>
-</li>
-<li><p>Zero if - ensures possibility to show zero, if amount is negative or positive; to be used for VAT payable or VAT refund fields in VAT statement</p>
-</li>
-<li><p>Print - if checkmark is inserted, then statement line is printed</p>
-</li>
+<li>Gen. Posting Type, Gen. Bus. Posting Group, Gen. Prod. Posting Group, VAT Bus. Posting Group, VAT Prod. Posting Group - fields for additional filtering by posting groups</li>
+<li>Print With - ensures possibility to print with opposite sign;</li>
+<li>Round - ensures possibility to round numbers; 0.01 by default</li>
+<li>Rounding type - nearest, upwards, downwards; fields is used for proportion calculation</li>
+<li>Calculate with - ensures possibility to use opposite sign for calculation</li>
+<li>Zero if - ensures possibility to show zero, if amount is negative or positive; to be used for VAT payable or VAT refund fields in VAT statement</li>
+<li>Print - if checkmark is inserted, then statement line is printed</li>
 </ul>
+<p><img src="images/vat_help_stmt_struct.png" alt="alt"></p>
+<p><strong>Note</strong>
+VAT Statement structure should be updated, if</p>
+<ul>
+<li>new General Business and new General Product Posting Groups are introduced</li>
+<li>new VAT Business and new VAT Product Posting Groups are introduced</li>
+<li>new accounts are created in Chart of Accounts, that are related to sales, purchase or VAT transactions</li>
+</ul>
+<h3 id="print-vat-statement">Print VAT Statement</h3>
+<ol>
+<li>Click on the button Search for Page or Report...</li>
+</ol>
+<p><img src="images/vat_help_search.png" alt="alt"></p>
+<ol start="2">
+<li>Type VAT Statements and select VAT Statements from Tasks</li>
+</ol>
+<p><img src="images/vat_help_searchStmt.png" alt="alt"></p>
+<ol start="3">
+<li>Select Batch Name - PVN2018, and press Edit</li>
+</ol>
+<p><img src="images/vat_help_stmt001.png" alt="alt"></p>
+<p><img src="images/vat_help_stmt002.png" alt="alt"></p>
+<ol start="4">
+<li>Press Print</li>
+</ol>
+<p><img src="images/vat_help_stmt_print001.png" alt="alt"></p>
+<ol start="5">
+<li>Complete Printing Options:</li>
+</ol>
+<ul>
+<li>Year - enter year of the reporting period</li>
+<li>Period Type - select period type</li>
+<li>Period No. - enter period no.</li>
+<li>Overpaid VAT Amount - this can be completed manually, if only needed to appear on the printout; this amount can be entered in Electronic Declaration System directly; optional field</li>
+<li>Refund VAT Amount - this can be completed manually, if only needed to appear on the printout; this amount can be entered in Electronic Declaration System directly; optional field</li>
+<li>Transfer to Bank Account - select a bank account to which the State Revenue Service should transfer the amount you would like to be refunded by the State; optional field</li>
+<li>Include VAT Entries - should be used, if only VAT Statement is based on VAT Entries
+<ul>
+<li>Open</li>
+<li>Closed</li>
+<li>Open and Closed - suggested option</li>
+</ul>
+</li>
+<li>Include VAT Entries - should be used, if only VAT Statement is based on VAT Entries
+<ul>
+<li>Before and Within Period</li>
+<li>Within Period - suggested option</li>
+</ul>
+</li>
+<li>Round to Whole Numbers - disabled for Latvia</li>
+<li>Show Amount in Additional Reporting Currency - should be used, if only EUR is not the Local Currency of the Company</li>
+<li>Prepared By- the responsible employee, who prepared the VAT Statement Appendix from the list of Employees. By selecting &quot;Prepared by&quot;, Employee card data are re-used: Name, Surname, Job title, Phone No.</li>
+</ul>
+<p><img src="images/vat_help_stmt_print002.png" alt="alt"></p>
+<ol start="6">
+<li>Review the VAT Statement printed</li>
+</ol>
+<h3 id="prepare-vat-return">Prepare VAT Return</h3>
+<ol>
+<li>Click on the button Search for Page or Report...</li>
+</ol>
+<p><img src="images/vat_help_search.png" alt="alt"></p>
+<ol start="2">
+<li>Type VAT Return and select VAT Return from Reports and Analysis</li>
+</ol>
+<p><img src="images/vat_help_searchVR.png" alt="alt"></p>
+<ol start="3">
+<li>VAT Returns List - create VAT Return</li>
+</ol>
+<p><img src="images/vat_help_VR_new.png" alt="alt"></p>
+<p><em>Complete General Fast Tab</em></p>
+<ol>
+<li>No. should come automatically from VAT Report Setup. If it is not completed, enter the No. Series manually</li>
+<li>Version - select Report Version</li>
+<li>Period Year - is completed by Suggest Lines Process</li>
+<li>Period Type - is completed by Suggest Lines Process</li>
+<li>Period No. - is completed by Suggest Lines Process</li>
+</ol>
+<p><img src="images/vat_help_VR_Gen.png" alt="alt"></p>
+<p><em>Create Lines</em></p>
+<ol>
+<li><p>In the Ribbon press &quot;Suggest Lines&quot; function
+<img src="images/vat_help_VR_Sugg001.png" alt="alt"></p>
+</li>
+<li><p>Complete the Criteria</p>
+</li>
+</ol>
+<ul>
+<li>Include VAT Entries - set to Open and Closed</li>
+<li>Include VAT Entries - set to Within Period</li>
+<li>VAT Statement Template - set to VAT</li>
+<li>VAT Statement Name - set to PVN2018</li>
+<li>Period Year - enter year of the reporting period</li>
+<li>Period Type - select period type</li>
+<li>Period No. - enter period no.</li>
+<li>Start Date - completed by system from the criteria chosen above</li>
+<li>End Date - completed by system from the criteria chosen above</li>
+</ul>
+<p><img src="images/vat_help_VR_Sugg002.png" alt="alt"></p>
+<p><em>Explanation for lines created</em></p>
+<ul>
+<li>Row No. - lines of VAT Return</li>
+<li>Description - description from VAT Statement</li>
+<li>Box No. - line code according to EDS</li>
+<li>Amount - line amount</li>
+</ul>
+<p><img src="images/vat_help_VR_Sugg003.png" alt="alt"></p>
+<h3 id="export-vat-return-with-appendixes-to-eds">Export VAT Return with Appendixes to EDS</h3>
+<ol>
+<li>VAT Return status needs to be set to Released, using &quot;Release&quot; button in the Ribbon.</li>
+<li>In the Ribbon press &quot;Submit&quot;</li>
+<li>Complete Export Options:</li>
+</ol>
+<ul>
+<li>Year - enter year of the reporting period</li>
+<li>Period Type - select period type</li>
+<li>Period No. - enter period no.</li>
+<li>Overpaid VAT Amount - this can be completed manually, if only needed to appear on the printout; this amount can be entered in Electronic Declaration System directly; optional field</li>
+<li>Refund VAT Amount - this can be completed manually, if only needed to appear on the printout; this amount can be entered in Electronic Declaration System directly; optional field</li>
+<li>Transfer to Bank Account - select a bank account to which the State Revenue Service should transfer the amount you would like to be refunded by the State; optional field</li>
+<li>VAT Buffer No. - select the VAT Buffer (VAT Buffer should be in status released and be within the reporting filter that is set above)</li>
+<li>VIES No.  - select the EC Sales Report (EC Sales Report should be in status released and be within the reporting filter that is set above)</li>
+<li>Round to Whole Numbers - disabled for Latvia</li>
+<li>Show Amount in Additional Reporting Currency - should be used, if only EUR is not the Local Currency of the Company</li>
+<li>Prepared By- the responsible employee, who prepared the VAT Statement Appendix from the list of Employees. By selecting &quot;Prepared by&quot;, Employee card data are re-used: Name, Surname, Job title, Phone No.</li>
+</ul>
+<ol start="3">
+<li>Select &quot;Prepared by&quot; - the responsible employee, who prepared the VAT Statement Appendix from the list of Employees. By selecting &quot;Prepared by&quot;, Employee card data are re-used: Name, Surname, Job title, Phone No.</li>
+</ol>
+<p><img src="images/vat_help_VR_Export001.png" alt="alt"></p>
+<ol start="4">
+<li>Select Save, in order to save the file for further upload to EDS</li>
+</ol>
+<p><img src="images/vat_help_VR_Export002.png" alt="alt"></p>
+<p><strong>Note</strong>
+Export of VAT Return requires Company Registration No. to be completed in Company information.</p>
 </article>
           </div>
           
