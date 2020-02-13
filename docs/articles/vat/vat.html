@@ -82,6 +82,8 @@
 <h2 id="role-center">Role Center</h2>
 <p>In order to use Latvian VAT Reporting Localization, no specific role center is required, because the functionality can be accessed via search pane.</p>
 <h2 id="configuration-package-import">Configuration package import</h2>
+<p><strong>Note</strong></p>
+<p>Configuration package LVI.LVI.VAT can only be imported, if only LVI.LVI.STANDARD configuration package was applied previously. If not, then all of the setup mentioned below is required to be completed manually.</p>
 <p>Basic necessary system setup for the use of Latvian VAT Reporting Localization is created, when applying the configuration package LVI.LVI.VAT.</p>
 <ol>
 <li>Click on the button Search for Page or Report...</li>
@@ -96,22 +98,15 @@
 </ol>
 <p><img src="images/vat_help_confpack002.png" alt="alt"></p>
 <p>Configuration package ensures the following information:</p>
-<ol>
-<li>Countries/Regions and Country/Region Translations</li>
-<li>Currencies</li>
-<li>G/L Accounts (21900..21989|23910|52100..52989|57200..57290)</li>
-<li>General Business, General Product, VAT Business, VAT Product Posting Groups</li>
-<li>General Posting Setup</li>
-<li>VAT Clauses</li>
+<ul>
+<li>Countries/Regions</li>
+<li>General Ledger Setup</li>
 <li>VAT Posting Setup</li>
 <li>VAT Statement Template</li>
 <li>VAT Statement Names</li>
 <li>VAT Statement Lines</li>
-<li>VAT Report Setup</li>
 <li>VAT Reports Configuration</li>
-<li>No. Series</li>
-<li>No. Series lines</li>
-</ol>
+</ul>
 <h2 id="permissions-sets">Permissions Sets</h2>
 <p>Use of Latvian VAT Reporting Localization require the following permission sets to be assigned per user or user group:</p>
 <ul>
@@ -167,12 +162,12 @@
 <p>By applying LVI.LVI.VAT configuration package, the VAT Report Setup shall be be modified by adding VAT Statement related setup.
 The following information should be filled in Numbering fast tab in VAT Report Setup:</p>
 <ul>
-<li>No. Series - set to PVNESPARD</li>
-<li>VAT Return No. - set to PVN-DEKL</li>
+<li>No. Series - set to No. series that are to be used for EC Sales List Reports</li>
+<li>VAT Return No. - set to No. series that are to be used for VAT Return</li>
 </ul>
 <p><img src="images/vat_help_vatrepset.png" alt="alt"></p>
 <h2 id="vat-report-configuration">VAT Report Configuration</h2>
-<p>By applying LVI.LVI.VAT configuration package, the VAT Reports Configuration shall be be modified by adding VAT Statement related setup.
+<p>By applying LVI.LVI.VAT configuration package, the VAT Reports Configuration shall be modified by adding VAT Statement related setup.
 The following information should be filled:</p>
 <ul>
 <li>EC Sales List
@@ -191,6 +186,28 @@ The following information should be filled:</p>
 </li>
 </ul>
 <p><img src="images/vat_help_repconf.png" alt="alt"></p>
+<h2 id="vat-posting-setup">VAT Posting Setup</h2>
+<p>Combination of VAT business posting groups and VAT product posting groups determines the the counterparty and the transaction in terms of VAT, as well as the calculation of the VAT at certain rate, posting to definite accounts, applying VAT clauses and creating VAT Statement Appendixes.</p>
+<p>By applying LVI.LVI.VAT configuration package, the VAT Posting Setup shall be be modified by adding VAT related setup.</p>
+<p>The following information should be filled:</p>
+<ul>
+<li>VAT Bus. Posting Group - Specifies the VAT specification of the involved customer or vendor to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup.</li>
+<li>VAT Prod. Posting Group - Specifies the VAT specification of the involved item or resource to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup.</li>
+<li>Description - Specifies a description of the VAT posting setup</li>
+<li>VAT Identifier - Specifies a code to group various VAT posting setups with similar attributes, for example VAT percentage.</li>
+<li>VAT % - Specifies the relevant VAT rate for the particular combination of VAT business posting group and VAT product posting group. Do not enter the percent sign, only the number. For example, if the VAT rate is 25 %, enter 25 in this field.</li>
+<li>VAT Calculation type - Specifies how VAT will be calculated for purchases or sales of items with this particular combination of VAT business posting group and VAT product posting group.</li>
+<li>Sales VAT Account - Specifies the general ledger account number to which to post sales VAT for the particular combination of VAT business posting group and VAT product posting group.</li>
+<li>Purchase VAT Account - Specifies the general ledger account number to which to post purchase VAT for the particular combination of business group and product group.</li>
+<li>Reverse Charge VAT Account - Specifies the general ledger account number to which to post purchase VAT for the particular combination of business group and product group.</li>
+<li>VAT Clause - Specifies the VAT Clause Code that is associated with the VAT Posting Setup. This is used in Sales document printouts.</li>
+<li>EU Service - Specifies if this combination of VAT business posting group and VAT product posting group are to be reported as services in the periodic VAT reports.</li>
+<li>Tax Category - not used for Latvia</li>
+<li>Business Type - Specifies the business type of the entry for VAT Statement Appendix 1-1 (I, A, N, K, Rx, C)</li>
+<li>Invoice is Customs Declaration - Specifies the combination of VAT posting groups for VAT on imports of items, calculated for the special tax regime. It provides the code 6-customs display in the declaration on field Document type. Specifies the business type of the entry for VAT Statement Appendix 1-1</li>
+<li>No Grouping in VAT Buffer - Specifies whether entry was grouped or no in VAT Buffer. This is used for transactions with local reverse charge goods.</li>
+<li>VAT Statement Line No. - Specifies the VAT Statement line no. (41, 42 etc) for VAT Statement Appendix 1-3.</li>
+</ul>
 <h2 id="vat-statement-template">VAT Statement Template</h2>
 <p>By applying LVI.LVI.VAT configuration package, the VAT Report Configuration shall be be modified by adding VAT Statement related setup.
 The following information should be filled:</p>
@@ -212,6 +229,80 @@ The following information should be filled:</p>
 <li>VAT Statement lines for VAT Statement Name - &quot;PVN2018&quot;</li>
 </ul>
 <p><img src="images/vat_help_stmt_struct.png" alt="alt"></p>
+<h3 id="complete-vat-statement-lines">Complete VAT Statement Lines</h3>
+<ol>
+<li>Click on the button Search for Page or Report...</li>
+</ol>
+<p><img src="images/vat_help_search.png" alt="alt"></p>
+<ol start="2">
+<li>Type VAT Statements and select VAT Statements from Tasks</li>
+</ol>
+<p><img src="images/vat_help_searchStmt.png" alt="alt"></p>
+<ol start="3">
+<li>Select Batch Name - PVN2018, and press Edit VAT Statement</li>
+</ol>
+<p><img src="images/vat_help_stmt001.png" alt="alt"></p>
+<p><img src="images/vat_help_stmt002.png" alt="alt"></p>
+<p><img src="images/vat_help_stmt003.png" alt="alt"></p>
+<p>In VAT Statement lines it is required to keep the structure of the main VAT statement lines, according to LV local legislation.</p>
+<ul>
+<li>Row No.– row no. for VAT Statement lines can match the State Revenue Service VAT statement lines; for lines that are used for additional calculations - any number can be used.</li>
+<li>Description – entered description should match the State Revenue Service VAT statement lines; for lines that are used for additional calculation - free text can be used</li>
+<li>Box. No. - this field should indicate to which State Revenue VAT Statement line does the calculated amount refer.</li>
+<li>Type – indicates which entries are used for calculation. Following options are available:
+<ul>
+<li>Account Totaling – used for filtering particular G/L entries</li>
+<li>VAT Entries -  used for filtering of VAT entries</li>
+<li>Row Totaling - used for filtering of VAT Statement rows</li>
+<li>Description - used for rows without amounts</li>
+<li>Math - rows contains calculus, using Math Operator, Operand 1 and Operand 2; this type is used for calculating VAT Proportion</li>
+</ul>
+</li>
+<li>Row Totaling - if row type is set to Row Totaling, then here it is required to enter the rows</li>
+<li>Account Totaling - if row type is set to Account Totaling, then here it is required to enter G/L Accounts</li>
+<li>Amount type - if row type is set to VAT entries, then here it is possible to define
+<ul>
+<li>Base Amount- for displaying taxable base amount</li>
+<li>VAT Amount- for displaying VAT amount</li>
+<li>Unrealized Base Amount- for displaying unrealized taxable base amount</li>
+<li>Unrealized VAT Amount- for displaying unrealized VAT amount</li>
+</ul>
+</li>
+<li>G/L Amount type - if row type is set to Account Totaling, then here it is possible to define
+<ul>
+<li>Net change - for displaying net change</li>
+<li>Debit Amount- for displaying only debit amounts</li>
+<li>Credit Amount- for displaying only credit amounts</li>
+</ul>
+</li>
+<li>Math Operator - used for defining calculation type
+<ul>
+<li>Add - returns row value of expression &quot;Operand 1&quot; + &quot;Operand 2&quot;</li>
+<li>Substract - returns row value of expression &quot;Operand 1&quot; - &quot;Operand 2&quot;</li>
+<li>Multiply - returns row value of expression &quot;Operand 1&quot; * &quot;Operand 2&quot;</li>
+<li>Divide - returns row value of expression &quot;Operand 1&quot; / &quot;Operand 2&quot; (if Operand 2 = 0, then returns 0)</li>
+<li>Calculate % - returns row value of expression &quot;Operand 1&quot; / &quot;Operand 2&quot; * 100 (if Operand 2 = 0, then returns 0)</li>
+<li>Use % - returns row value of expression &quot;Operand 1&quot; / &quot;Operand 2&quot; / 100</li>
+<li>Min - return the lowest value of Row Totaling</li>
+<li>Max - return the highest value of Row Totaling</li>
+</ul>
+</li>
+<li>Gen. Posting Type, Gen. Bus. Posting Group, Gen. Prod. Posting Group, VAT Bus. Posting Group, VAT Prod. Posting Group, EU 3-Party Trade - fields for additional filtering by posting groups</li>
+<li>Print With - ensures possibility to print with opposite sign;</li>
+<li>Round - ensures possibility to round numbers; 0.01 by default</li>
+<li>Rounding type - nearest, upwards, downwards; fields is used for proportion calculation</li>
+<li>Calculate with - ensures possibility to use opposite sign for calculation</li>
+<li>Zero if - ensures possibility to show zero, if amount is negative or positive; to be used for VAT payable or VAT refund fields in VAT statement</li>
+<li>Print - if checkmark is inserted, then statement line is printed</li>
+</ul>
+<p><img src="images/vat_help_stmt_struct.png" alt="alt"></p>
+<p><strong>Note</strong>
+VAT Statement structure should be updated, if</p>
+<ul>
+<li>new General Business and new General Product Posting Groups are introduced</li>
+<li>new VAT Business and new VAT Product Posting Groups are introduced</li>
+<li>new accounts are created in Chart of Accounts, that are related to sales, purchase or VAT transactions</li>
+</ul>
 <h1 id="how-to-use">How to use</h1>
 <h2 id="how-to-use-vat-buffer">How to use: VAT Buffer</h2>
 <p><strong>Purpose:</strong> VAT Buffer is used in order to prepare VAT Statement Appendixes</p>
@@ -248,14 +339,14 @@ The following information should be filled:</p>
 <p><img src="images/vat_help_VB_Gen.png" alt="alt"></p>
 <p><em>Complete Setup Fast Tab</em></p>
 <ol>
-<li>G/L Account No. Filter (inland) - enter VAT Accounts that are used for local purchase transactions and inserted in VAT Posting Setup as Purchase VAT Accounts</li>
-<li>G/L Account No. Filter (EU) - enter VAT Accounts that are used for EU purchase transactions and inserted in VAT Posting Setup as Purchase VAT Accounts</li>
-<li>G/L Account No. Filter (Sales) - enter VAT Accounts that are used for local sales transactions and inserted in VAT Posting Setup as Sales VAT Accounts</li>
-<li>G/L Account No. Filter (Sales 0%) - enter Sales Accounts that are used for  sales transactions with zero VAT rate</li>
+<li>G/L Account No. Filter (inland) - enter VAT Accounts that are used for local purchase transactions and inserted in VAT Posting Setup as Purchase VAT Accounts. Used for VAT 1-1 Local purchase disclosure.</li>
+<li>G/L Account No. Filter (EU) - enter VAT Accounts that are used for EU purchase transactions and inserted in VAT Posting Setup as Purchase VAT Accounts. Used for VAT 1-2 EU purchase disclosure.</li>
+<li>G/L Account No. Filter (Sales) - enter VAT Accounts that are used for local sales transactions and inserted in VAT Posting Setup as Sales VAT Accounts. Used for VAT 1-3 Local sale disclosure.</li>
+<li>G/L Account No. Filter (Sales 0%) - enter Sales Accounts that are used for  sales transactions with zero VAT rate. Used for VAT 1-3 Local sale disclosure.</li>
 <li>Transaction Limit - enter the limit of transaction amount, below which the individual transactions should be grouped together; this limit may be entered in General Ledger Setup</li>
 <li>Partner Limit - enter the limit of transaction amount, above which the transactions should be grouped per Partner; this limit may be entered in General Ledger Setup</li>
 <li>Report Document - select which document number is to be used as Report Document No. and disclosed in VAT Statement Appendix  &quot;External Document No., Document No.&quot; or &quot;Document No.&quot;</li>
-<li>Group Partner By - select whether the entries should be grouped by VAT Registration No. or Company Registration No.</li>
+<li>Group Partner By - select whether the entries should be grouped by VAT Registration No. or Customer/Vendor No.</li>
 </ol>
 <p><img src="images/vat_help_VB_Set.png" alt="alt"></p>
 <p><em>Create Lines</em></p>
@@ -285,7 +376,7 @@ The following information should be filled:</p>
 <li>Transaction No. - indicate the number of transaction</li>
 <li>Skip Entry- if checked, then entry is not included for VAT reporting</li>
 <li>Report Document No. - number of the source document</li>
-<li>Document No. - number assigned by NAV</li>
+<li>Document No. - number assigned by system</li>
 <li>External Document No.- external document number</li>
 <li>Document Type- indicates the type of the document
 <ul>
@@ -400,12 +491,12 @@ In order to update the lines in VAt Buffer it is required to press &quot;Delete 
 <p><em>Explanation for lines created</em></p>
 <ul>
 <li>Line No.- report Row No.</li>
-<li>Report No.</li>
+<li>Report No.  - indicates EC Sales List Report No.</li>
 <li>Country Code</li>
-<li>Customer VAT. Reg. No.</li>
+<li>Customer VAT. Reg. No. - indicates Customer VAT Registration No.</li>
 <li>Total Value of Supplies</li>
-<li>Transaction Indicator</li>
-<li>Line Type</li>
+<li>Transaction Indicator - specifies B2B Goods or B2B Services</li>
+<li>Line Type - specifies whether the line is new, corrective or cancelled</li>
 </ul>
 <p><img src="images/vat_help_EC_Sugg002.png" alt="alt"></p>
 <h3 id="print-vat-statement-appendix-2-3">Print VAT Statement Appendix 2, 3</h3>
@@ -417,8 +508,8 @@ In order to update the lines in VAt Buffer it is required to press &quot;Delete 
 </ol>
 <p><img src="images/vat_help_EC_print001.png" alt="alt"></p>
 <p><img src="images/vat_help_EC_print002.png" alt="alt"></p>
-<p><strong>Note</strong>
-Please note that based on the VAT Report Type selected, the following printout shall be prepared:</p>
+<p><strong>Note</strong></p>
+<p>Please note that based on the VAT Report Type selected in EC Sales List Reports Card, the following printout shall be prepared:</p>
 <ul>
 <li>Standard - for VAT Statement Appendix VAT2</li>
 <li>Corrective - for VAT Statement Appendix VAT3</li>
@@ -427,82 +518,6 @@ Please note that based on the VAT Report Type selected, the following printout s
 <p><strong>Purpose:</strong> VAT Statement is used to set filters for VAT or General Ledger Entries, in order to prepare VAT Return.</p>
 <p><strong>Availability:</strong> can be accessed from Search for Page or Report…</p>
 <p><strong>Pre-requisites:</strong> In order to use the functionality, the following steps are required:</p>
-<ol>
-<li>Imported Configuration Package LVI.LVI.VAT</li>
-</ol>
-<h3 id="complete-vat-statement-lines">Complete VAT Statement Lines</h3>
-<ol>
-<li>Click on the button Search for Page or Report...</li>
-</ol>
-<p><img src="images/vat_help_search.png" alt="alt"></p>
-<ol start="2">
-<li>Type VAT Statements and select VAT Statements from Tasks</li>
-</ol>
-<p><img src="images/vat_help_searchStmt.png" alt="alt"></p>
-<ol start="3">
-<li>Select Batch Name - PVN2018, and press Edit</li>
-</ol>
-<p><img src="images/vat_help_stmt001.png" alt="alt"></p>
-<p><img src="images/vat_help_stmt002.png" alt="alt"></p>
-<p>In VAT Statement lines it is required to keep the structure of the main VAT statement lines, according to LV local legislation.</p>
-<ul>
-<li>Row No.– row no. for VAT Statement lines should match the State Revenue Service VAT statement lines; for lines that are used for additional calculations - any number can be used.</li>
-<li>Description – entered description should match the State Revenue Service VAT statement lines; for lines that are used for additional calculation - free text can be used</li>
-<li>Box. No. - this field should indicate to which State Revenue VAT Statement line does the calculated amount refer.</li>
-<li>Type – indicates which entries are used for calculation. Following options are available:
-<ul>
-<li>Account Totaling – used for filtering particular G/L entries</li>
-<li>VAT Entries -  used for filtering of VAT entries</li>
-<li>Row Totaling - used for filtering of VAT Statement rows</li>
-<li>Description - used for rows without amounts</li>
-<li>Math - rows contains calculus, using Math Operator, Operand 1 and Operand 2; this type is used for calculating VAT Proportion</li>
-</ul>
-</li>
-<li>Row Totaling - if row type is set to Row Totaling, then here it is required to enter the rows</li>
-<li>Account Totaling - if row type is set to Account Totaling, then here it is required to enter G/L Accounts</li>
-<li>Amount type - if row type is set to VAT entries, then here it is possible to define
-<ul>
-<li>Base Amount- for displaying taxable base amount</li>
-<li>VAT Amount- for displaying VAT amount</li>
-<li>Unrealized Base Amount- for displaying unrealized taxable base amount</li>
-<li>Unrealized VAT Amount- for displaying unrealized VAT amount</li>
-</ul>
-</li>
-<li>G/L Amount type - if row type is set to Account Totaling, then here it is possible to define
-<ul>
-<li>Net change - for displaying net change</li>
-<li>Debit Amount- for displaying only debit amounts</li>
-<li>Credit Amount- for displaying only credit amounts</li>
-</ul>
-</li>
-<li>Math Operator - used for defining calculation type
-<ul>
-<li>Add - returns row value of expression &quot;Operand 1&quot; + &quot;Operand 2&quot;</li>
-<li>Substract - returns row value of expression &quot;Operand 1&quot; - &quot;Operand 2&quot;</li>
-<li>Multiply - returns row value of expression &quot;Operand 1&quot; * &quot;Operand 2&quot;</li>
-<li>Divide - returns row value of expression &quot;Operand 1&quot; / &quot;Operand 2&quot; (if Operand 2 = 0, then returns 0)</li>
-<li>Calculate % - returns row value of expression &quot;Operand 1&quot; / &quot;Operand 2&quot; * 100 (if Operand 2 = 0, then returns 0)</li>
-<li>Use % - returns row value of expression &quot;Operand 1&quot; / &quot;Operand 2&quot; / 100</li>
-<li>Min - return the lowest value of Row Totaling</li>
-<li>Max - return the highest value of Row Totaling</li>
-</ul>
-</li>
-<li>Gen. Posting Type, Gen. Bus. Posting Group, Gen. Prod. Posting Group, VAT Bus. Posting Group, VAT Prod. Posting Group - fields for additional filtering by posting groups</li>
-<li>Print With - ensures possibility to print with opposite sign;</li>
-<li>Round - ensures possibility to round numbers; 0.01 by default</li>
-<li>Rounding type - nearest, upwards, downwards; fields is used for proportion calculation</li>
-<li>Calculate with - ensures possibility to use opposite sign for calculation</li>
-<li>Zero if - ensures possibility to show zero, if amount is negative or positive; to be used for VAT payable or VAT refund fields in VAT statement</li>
-<li>Print - if checkmark is inserted, then statement line is printed</li>
-</ul>
-<p><img src="images/vat_help_stmt_struct.png" alt="alt"></p>
-<p><strong>Note</strong>
-VAT Statement structure should be updated, if</p>
-<ul>
-<li>new General Business and new General Product Posting Groups are introduced</li>
-<li>new VAT Business and new VAT Product Posting Groups are introduced</li>
-<li>new accounts are created in Chart of Accounts, that are related to sales, purchase or VAT transactions</li>
-</ul>
 <h3 id="print-vat-statement">Print VAT Statement</h3>
 <ol>
 <li>Click on the button Search for Page or Report...</li>
@@ -535,13 +550,13 @@ VAT Statement structure should be updated, if</p>
 <ul>
 <li>Open</li>
 <li>Closed</li>
-<li>Open and Closed - suggested option</li>
+<li>Open and Closed - recommended option</li>
 </ul>
 </li>
 <li>Include VAT Entries - should be used, if only VAT Statement is based on VAT Entries
 <ul>
 <li>Before and Within Period</li>
-<li>Within Period - suggested option</li>
+<li>Within Period - recommended option</li>
 </ul>
 </li>
 <li>Round to Whole Numbers - disabled for Latvia</li>
@@ -629,8 +644,8 @@ VAT Statement structure should be updated, if</p>
 <li>Select Save, in order to save the file for further upload to EDS</li>
 </ol>
 <p><img src="images/vat_help_VR_Export002.png" alt="alt"></p>
-<p><strong>Note</strong>
-Export of VAT Return requires Company Registration No. to be completed in Company information.</p>
+<p><strong>Note</strong></p>
+<p>Export of VAT Return requires Company Registration No. to be completed in Company information.</p>
 </article>
           </div>
           

@@ -81,7 +81,13 @@
 
 <h2 id="overview">Overview</h2>
 <h2 id="walkthrough-import-configuration-package">Walkthrough: Import Configuration package</h2>
+<p><strong>About this walkthrough</strong>: Configuration package LVI.LVI.VAT can only be imported, if only LVI.LVI.STANDARD configuration package was applied previously. If not, then all of the setup mentioned below is required to be completed manually.</p>
 <p>Basic necessary system setup for the use of Latvian VAT Reporting Localization is created, when applying the configuration package LVI.LVI.VAT.</p>
+<p><strong>Roles</strong>: No specific user roles are required.</p>
+<p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
+Cronus Latvia, SIA is required to import LVI.LVI.VAT configuration package, because LVI.LVI.STANDARD package was previously applied.</p>
+<p><strong>Availability:</strong> can be accessed from Search for Page or Report…</p>
+<p><strong>Pre-requisites:</strong> In order to use the functionality, the following pre-requisites are required:</p>
 <ol>
 <li>Click on the button Search for Page or Report...</li>
 </ol>
@@ -95,22 +101,15 @@
 </ol>
 <p><img src="images/vat_help_confpack002.png" alt="alt"></p>
 <p>Configuration package ensures the following information:</p>
-<ol>
-<li>Countries/Regions and Country/Region Translations</li>
-<li>Currencies</li>
-<li>G/L Accounts (21900..21989|23910|52100..52989|57200..57290)</li>
-<li>General Business, General Product, VAT Business, VAT Product Posting Groups</li>
-<li>General Posting Setup</li>
-<li>VAT Clauses</li>
+<ul>
+<li>Countries/Regions</li>
+<li>General Ledger Setup</li>
 <li>VAT Posting Setup</li>
 <li>VAT Statement Template</li>
 <li>VAT Statement Names</li>
 <li>VAT Statement Lines</li>
-<li>VAT Report Setup</li>
 <li>VAT Reports Configuration</li>
-<li>No. Series</li>
-<li>No. Series lines</li>
-</ol>
+</ul>
 <h2 id="walkthrough-how-to-create-vat-buffer">Walkthrough: How to create VAT Buffer</h2>
 <p><strong>About this walkthrough</strong>: VAT Buffer is used in order to prepare VAT Statement Appendixes</p>
 <ul>
@@ -123,17 +122,18 @@
 Cronus Latvia, SIA is required to prepare VAT Statement Appendixes VAT 1-1, VAT 1-2, VAT 1-3 for January 2020.</p>
 <p><strong>Availability:</strong> can be accessed from Search for Page or Report…</p>
 <p><strong>Pre-requisites:</strong> In order to use the functionality, the following pre-requisites are required:</p>
+<p><em>Completed Setup</em></p>
+<ol>
+<li>General Ledger Setup - completed VAT Buffer FastTab</li>
+<li>VAT Posting Setup</li>
+</ol>
 <p><em>Created Purchase Transactions</em></p>
 <ol>
-<li>Local purchase of goods with standard VAT rate from Vendor who is not registered as VAT Payer</li>
 <li>Local purchase of goods with standard VAT rate from Vendor who is registered as VAT Payer with amount not exceeding 150.00 EUR</li>
 <li>Local purchase of goods with standard VAT rate from Vendor who is registered as VAT Payer with amount exceeding 150.00 EUR</li>
 <li>Local purchase of goods that are subject to reverse charge from Vendor who is registered as VAT Payer with amount not exceeding 150.00 EUR</li>
-<li>Local purchase of goods that are subject to reverse charge Vendor who is registered as VAT Payer with amount exceeding 150.00 EUR</li>
 <li>EU Purchase of goods with standard VAT rate from Vendor who is registered as VAT Payer in EU</li>
 <li>EU Purchase of services with standard VAT rate from Vendor who is registered as VAT Payer in EU</li>
-<li>Non-EU Purchase of goods with standard VAT rate from Vendor who is not registered as VAT Payer in EU</li>
-<li>Non-EU Purchase of services with standard VAT rate from Vendor who is not registered as VAT Payer in EU</li>
 </ol>
 <p><em>Created Sales Transactions</em></p>
 <ol>
@@ -141,9 +141,6 @@ Cronus Latvia, SIA is required to prepare VAT Statement Appendixes VAT 1-1, VAT 
 <li>Local sales of goods with standard VAT rate from Vendor who is registered as VAT Payer with amount not exceeding 150.00 EUR</li>
 <li>Local sales of goods with standard VAT rate from Vendor who is registered as VAT Payer with amount exceeding 150.00 EUR</li>
 <li>Local sales of goods that are subject to reverse charge from Vendor who is registered as VAT Payer with amount not exceeding 150.00 EUR</li>
-<li>Local sales of goods that are subject to reverse charge Vendor who is registered as VAT Payer with amount exceeding 150.00 EUR</li>
-<li>Non-EU sales of goods with standard VAT rate from Vendor who is not registered as VAT Payer in EU</li>
-<li>Non-EU sales of services with standard VAT rate from Vendor who is not registered as VAT Payer in EU</li>
 </ol>
 <h3 id="create-new-vat-buffer">Create New VAT Buffer</h3>
 <ol>
@@ -265,15 +262,18 @@ Cronus Latvia, SIA is required to prepare VAT Statement Appendixes VAT 1-1, VAT 
 <p><img src="images/vat_help_VB_print001.png" alt="alt"></p>
 <p><img src="images/vat_help_VB_print002.png" alt="alt"></p>
 <h2 id="walkthrough-how-to-create-ec-sales-report">Walkthrough: How to create EC Sales Report</h2>
-<p><strong>About this walkthrough</strong>: EC Sales List Report is used, in order to prepare VAT Statement Appendixes</p>
-<ul>
-<li>VAT 2 EU sale disclosure</li>
-</ul>
+<p><strong>About this walkthrough</strong>: EC Sales List Report is used, in order to prepare VAT Statement Appendixes VAT 2 EU sale disclosure</p>
 <p><strong>Roles</strong>: No specific user roles are required.</p>
 <p><strong>Story</strong>: You are Katrīna Pavlova, assigned by Cronus International to be a CFO in Cronus Latvia, SIA. The company runs business in the sphere of sales of furniture and rendering consultation services related to interior design upon request of local customers.
 Cronus Latvia, SIA is required to prepare VAT Statement Appendix VAT 2 for January 2020.</p>
-<p><strong>Pre-requisite</strong>:
-<em>Created EU Sales Transactions</em></p>
+<p><strong>Pre-requisite</strong>:</p>
+<p><em>Completed Setup</em></p>
+<ol>
+<li>Countries/Regions</li>
+<li>VAT Reports Configuration</li>
+<li>VAT Report Setup</li>
+</ol>
+<p><em>Created EU Sales Transactions</em></p>
 <ol>
 <li>EU sales of goods with standard VAT rate from Vendor who is registered as VAT Payer in EU</li>
 <li>EU sales of services with standard VAT rate from Vendor who is registered as VAT Payer in EU</li>
@@ -318,12 +318,12 @@ Cronus Latvia, SIA is required to prepare VAT Statement Appendix VAT 2 for Janua
 <p><em>Explanation for lines created</em></p>
 <ul>
 <li>Line No.- report Row No.</li>
-<li>Report No.</li>
+<li>Report No.  - indicates EC Sales List Report No.</li>
 <li>Country Code</li>
-<li>Customer VAT. Reg. No.</li>
+<li>Customer VAT. Reg. No. - indicates Customer VAT Registration No.</li>
 <li>Total Value of Supplies</li>
-<li>Transaction Indicator</li>
-<li>Line Type</li>
+<li>Transaction Indicator - specifies B2B Goods or B2B Services</li>
+<li>Line Type - specifies whether the line is new, corrective or cancelled</li>
 </ul>
 <p><img src="images/vat_help_EC_Sugg002.png" alt="alt"></p>
 <h3 id="print-vat-statement-appendix-2-3">Print VAT Statement Appendix 2, 3</h3>
@@ -347,41 +347,32 @@ Cronus Latvia, SIA is required to prepare VAT Statement Appendix VAT 2 for Janua
 <li>Export of VAT Return requires Company Registration No. to be completed in Company information.</li>
 <li>VAT Statement template - VAT Statement Report ID - 70151475</li>
 </ul>
+<p><em>Completed Setup</em></p>
+<ul>
+<li>VAT Statement</li>
+<li>VAT Statement Template</li>
+<li>VAT Report Setup</li>
+<li>VAT Reports Configuration</li>
+</ul>
 <p><img src="images/vat_help_stmt_templ.png" alt="alt"></p>
 <p><em>Created Purchase Transactions</em></p>
 <ol>
-<li>Local purchase of goods with standard VAT rate from Vendor who is not registered as VAT Payer</li>
 <li>Local purchase of goods with standard VAT rate from Vendor who is registered as VAT Payer with amount not exceeding 150.00 EUR</li>
 <li>Local purchase of goods with standard VAT rate from Vendor who is registered as VAT Payer with amount exceeding 150.00 EUR</li>
 <li>Local purchase of goods that are subject to reverse charge from Vendor who is registered as VAT Payer with amount not exceeding 150.00 EUR</li>
-<li>Local purchase of goods that are subject to reverse charge Vendor who is registered as VAT Payer with amount exceeding 150.00 EUR</li>
 <li>EU Purchase of goods with standard VAT rate from Vendor who is registered as VAT Payer in EU</li>
 <li>EU Purchase of services with standard VAT rate from Vendor who is registered as VAT Payer in EU</li>
-<li>Non-EU Purchase of goods with standard VAT rate from Vendor who is not registered as VAT Payer in EU</li>
-<li>Non-EU Purchase of services with standard VAT rate from Vendor who is not registered as VAT Payer in EU</li>
 </ol>
 <p><em>Created Sales Transactions</em></p>
 <ol>
-<li><p>Local sales of goods with standard VAT rate from Vendor who is not registered as VAT Payer</p>
-</li>
-<li><p>Local sales of goods with standard VAT rate from Vendor who is registered as VAT Payer with amount not exceeding 150.00 EUR</p>
-</li>
-<li><p>Local sales of goods with standard VAT rate from Vendor who is registered as VAT Payer with amount exceeding 150.00 EUR</p>
-</li>
-<li><p>Local sales of goods that are subject to reverse charge from Vendor who is registered as VAT Payer with amount not exceeding 150.00 EUR</p>
-</li>
-<li><p>Local sales of goods that are subject to reverse charge Vendor who is registered as VAT Payer with amount exceeding 150.00 EUR</p>
-</li>
-<li><p>EU sales of goods with standard VAT rate from Vendor who is registered as VAT Payer in EU</p>
-</li>
-<li><p>EU sales of services with standard VAT rate from Vendor who is registered as VAT Payer in EU</p>
-</li>
-<li><p>Non-EU sales of goods with standard VAT rate from Vendor who is not registered as VAT Payer in EU</p>
-</li>
-<li><p>Non-EU sales of services with standard VAT rate from Vendor who is not registered as VAT Payer in EU</p>
-</li>
-<li><p>Click on the button Search for Page or Report...</p>
-</li>
+<li>Local sales of goods with standard VAT rate from Vendor who is not registered as VAT Payer</li>
+<li>Local sales of goods with standard VAT rate from Vendor who is registered as VAT Payer with amount not exceeding 150.00 EUR</li>
+<li>Local sales of goods with standard VAT rate from Vendor who is registered as VAT Payer with amount exceeding 150.00 EUR</li>
+<li>Local sales of goods that are subject to reverse charge from Vendor who is registered as VAT Payer with amount not exceeding 150.00 EUR</li>
+</ol>
+<p><em>Steps:</em></p>
+<ol>
+<li>Click on the button Search for Page or Report...</li>
 </ol>
 <p><img src="images/vat_help_search.png" alt="alt"></p>
 <ol start="2">

@@ -2332,7 +2332,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/faq.html",
-          "hash": "XlfdJYVLo+Cw0ebG29eGhA=="
+          "hash": "KyO5tiGJtQZSomD7fx8ltg=="
         }
       },
       "is_incremental": false,
@@ -2498,7 +2498,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/latvian_language.html",
-          "hash": "gArvEUyns/k+J8FJFH4AVA=="
+          "hash": "V7HPr7n0PT1jefOWjlml2g=="
         }
       },
       "is_incremental": false,
@@ -2510,7 +2510,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/overview.html",
-          "hash": "SpgsZb9dGSijB/wwh0ZSkg=="
+          "hash": "QFTCdIyN8nEYipb8kAVCig=="
         }
       },
       "is_incremental": false,
@@ -2522,7 +2522,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/promo.html",
-          "hash": "dl3HFLud0Lr+7XU18TrvDw=="
+          "hash": "04C5bpmuf29X8Bh5yfJzIg=="
         }
       },
       "is_incremental": false,
@@ -2546,7 +2546,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/usage_scenarios.html",
-          "hash": "nktAVhtIHhNEojKxE6vChA=="
+          "hash": "QMxHcywHuiFH2Vo2Vm9EcQ=="
         }
       },
       "is_incremental": false,
@@ -2987,6 +2987,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "articles/vat/images/vat_help_stmt003.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/vat/images/vat_help_stmt003.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "articles/vat/images/vat_help_stmt_print001.png",
       "output": {
         "resource": {
@@ -3070,7 +3081,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/vat/usage_scenarios.html",
-          "hash": "z8oUjZ+8eLIU4EDa1myqJw=="
+          "hash": "QhE2wSCL0tCo29lXHaI5Dg=="
         }
       },
       "is_incremental": false,
@@ -3082,7 +3093,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/vat/vat.html",
-          "hash": "HtETytiajxxLigKoTmaK3w=="
+          "hash": "ztfWLoi5zy8LSPJkk1qLmw=="
         }
       },
       "is_incremental": false,
@@ -3116,7 +3127,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "akvKLtLnf4LcANO9MYJ/ww=="
+          "hash": "mljqs5R94tq5400o6XCo1Q=="
         }
       },
       "is_incremental": false,
@@ -3150,28 +3161,30 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 25,
-          "skipped_file_count": 6
+          "skipped_file_count": 0
         },
-        "TocDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
