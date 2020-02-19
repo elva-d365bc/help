@@ -83,7 +83,7 @@
 <p>In order to use Latvian VAT Reporting Localization, no specific role center is required, because the functionality can be accessed via search pane.</p>
 <h2 id="configuration-package-import">Configuration package import</h2>
 <p><strong>Note</strong></p>
-<p>Configuration package LVI.LVI.VAT can only be imported, if only LVI.LVI.STANDARD configuration package was applied previously. If not, then all of the setup mentioned below is required to be completed manually.</p>
+<p>Configuration package LVI.LVI.VAT can only be imported, if LVI.LVI.STANDARD configuration package was applied previously. If not, then all of the setup mentioned below is required to be completed manually.</p>
 <p>Basic necessary system setup for the use of Latvian VAT Reporting Localization is created, when applying the configuration package LVI.LVI.VAT.</p>
 <ol>
 <li>Click on the button Search for Page or Report...</li>
@@ -150,12 +150,12 @@
 <ul>
 <li>VAT Buffer Nos. - select No.Series for VAT Buffer</li>
 <li>Default Transaction Limit - enter a limit above which the transaction should be disclosed separately in VAT Appendix</li>
-<li>Business Type (w. Registration No.) - T</li>
-<li>Business Type (wo. Registration No.) - X</li>
+<li>Business Type (w. Registration No.) - pre-defined value &quot;T&quot;</li>
+<li>Business Type (wo. Registration No.) - pre-defined value &quot;X&quot;</li>
 <li>Default Partner Limit - Specifies the threshold in LCY, above which individual transactions are lower than the threshold, but in the aggregate larger than the limit, must be split by the partners</li>
-<li>Business Type (Partner) - V</li>
-<li>Report Document No. - External Document No.- Document No.</li>
-<li>Group Partner By - VAT Registration No.</li>
+<li>Business Type (Partner) - pre-defined value &quot;V&quot;</li>
+<li>Report Document No. - External Document No.or Document No.</li>
+<li>Group Partner By - VAT Registration No. or Customer/Vendor No.</li>
 </ul>
 <p><img src="images/vat_help_genledsetup002.png" alt="alt"></p>
 <h2 id="vat-report-setup">VAT Report Setup</h2>
@@ -296,8 +296,8 @@ The following information should be filled:</p>
 <li>Print - if checkmark is inserted, then statement line is printed</li>
 </ul>
 <p><img src="images/vat_help_stmt_struct.png" alt="alt"></p>
-<p><strong>Note</strong>
-VAT Statement structure should be updated, if</p>
+<p><strong>Note</strong></p>
+<p>VAT Statement structure should be updated, if</p>
 <ul>
 <li>new General Business and new General Product Posting Groups are introduced</li>
 <li>new VAT Business and new VAT Product Posting Groups are introduced</li>
@@ -528,7 +528,7 @@ In order to update the lines in VAt Buffer it is required to press &quot;Delete 
 </ol>
 <p><img src="images/vat_help_searchStmt.png" alt="alt"></p>
 <ol start="3">
-<li>Select Batch Name - PVN2018, and press Edit</li>
+<li>Select Batch Name - PVN2018, and press OK</li>
 </ol>
 <p><img src="images/vat_help_stmt001.png" alt="alt"></p>
 <p><img src="images/vat_help_stmt002.png" alt="alt"></p>
@@ -616,7 +616,6 @@ In order to update the lines in VAt Buffer it is required to press &quot;Delete 
 <li>Box No. - line code according to EDS</li>
 <li>Amount - line amount</li>
 </ul>
-<p><img src="images/vat_help_VR_Sugg003.png" alt="alt"></p>
 <h3 id="export-vat-return-with-appendixes-to-eds">Export VAT Return with Appendixes to EDS</h3>
 <ol>
 <li>VAT Return status needs to be set to Released, using &quot;Release&quot; button in the Ribbon.</li>
@@ -636,10 +635,8 @@ In order to update the lines in VAt Buffer it is required to press &quot;Delete 
 <li>Show Amount in Additional Reporting Currency - should be used, if only EUR is not the Local Currency of the Company</li>
 <li>Prepared By- the responsible employee, who prepared the VAT Statement Appendix from the list of Employees. By selecting &quot;Prepared by&quot;, Employee card data are re-used: Name, Surname, Job title, Phone No.</li>
 </ul>
-<ol start="3">
-<li>Select &quot;Prepared by&quot; - the responsible employee, who prepared the VAT Statement Appendix from the list of Employees. By selecting &quot;Prepared by&quot;, Employee card data are re-used: Name, Surname, Job title, Phone No.</li>
-</ol>
-<p><img src="images/vat_help_VR_Export001.png" alt="alt"></p>
+<p><img src="images/us_vat_VR_Export003.png" alt="alt"></p>
+<p><img src="images/vat_help_VR_Sugg003.png" alt="alt"></p>
 <ol start="4">
 <li>Select Save, in order to save the file for further upload to EDS</li>
 </ol>
