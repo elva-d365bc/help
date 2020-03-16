@@ -1809,6 +1809,127 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_advr1.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_advr1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_advr2.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_advr2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_advr3.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_advr3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_curr000.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_curr000.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_curr001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_curr001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_curr002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_curr002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_inv001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_inv001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_inv002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_inv002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_pers001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_pers001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_pers002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_pers002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_pers003.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/User_scenarios/base_use_pers003.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "articles/base_and_invoices/images/base_advance001.png",
       "output": {
         "resource": {
@@ -1831,6 +1952,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/base_exch001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/base_exch001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "articles/base_and_invoices/images/base_fbp001.png",
       "output": {
         "resource": {
@@ -1846,6 +1978,17 @@
       "output": {
         "resource": {
           "relative_path": "articles/base_and_invoices/images/base_fbp002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/base_fpc001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/base_fpc001.png"
         }
       },
       "is_incremental": false,
@@ -2068,7 +2211,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/usage_scenarios.html",
-          "hash": "mv/XXHjxXcVz8oTk1VqRNQ=="
+          "hash": "d1tilU9mfd1+RRQOoOGkyg=="
         }
       },
       "is_incremental": false,
@@ -2661,6 +2804,39 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/cash_eval001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/cash_eval001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/cash_eval002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/cash_eval002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/cash_eval003.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/cash_eval003.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "articles/cash_management/images/cash_income002.png",
       "output": {
         "resource": {
@@ -2803,6 +2979,61 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/cash_use_bank001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/cash_use_bank001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/cash_use_batch001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/cash_use_batch001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/cash_use_bpg001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/cash_use_bpg001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/cash_use_empl001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/cash_use_empl001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/cash_use_info001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/cash_use_info001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/cash_management/overview.md",
       "output": {
@@ -2832,7 +3063,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/usage_scenarios.html",
-          "hash": "/EOuPvREQbjBMEH7bhNofg=="
+          "hash": "8L/O2pv1E0dhPkywJe0Ltw=="
         }
       },
       "is_incremental": false,
@@ -4347,6 +4578,13 @@
         "full_build_reason_code": "ConfigChanged"
       },
       "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -4358,13 +4596,6 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 26,
-          "skipped_file_count": 0
-        },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
