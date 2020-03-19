@@ -80,6 +80,32 @@
 <h1 id="frequently-asked-questions">Frequently Asked Questions</h1>
 
 <h2 id="overview">Overview</h2>
+<p>Latvian Intrastat Reporting Localization is a business software solution developed by Elva Baltic for companies that carry out business transactions in Republic of Latvia and are subjects to local Intrastat reporting.</p>
+<p>Latvian Intrastat Reporting Localization is fully integrated with Dynamics 365 Business Central by extending its functionality and tailoring it to meet the requirements of local legislation and local business requirements.</p>
+<p>The Application enables the user to:
+Prepare printouts and create XML files fully compliant with local Intrastat forms</p>
+<ul>
+<li>Receipt Intrastat - 1A</li>
+<li>Receipt Intrastat - 1B</li>
+<li>Shipment Intrastat - 2A</li>
+<li>Shipment Intrastat - 2B</li>
+</ul>
+<p>Afterwards the forms can be uploaded into Electronic Data Collection system provided by Central Statistical Bureau.</p>
+<h2 id="is-a-specific-role-center-required-for-use-of-your-application">Is a specific Role Center required for use of your application?</h2>
+<p>In order to use Latvian Intrastat Reporting Localization, no specific role center is required, because the functionality can be accessed via search pane, whereas printout buttons are embedded inside ribbon under the tab ACTIONS.</p>
+<h2 id="why-all-my-created-sales-purchase-transfer-documents-that-are-related-to-eu-receipts-or-shipments-have-the-same-transaction-types">Why all my created sales, purchase, transfer documents that are related to EU receipts or shipments have the same Transaction types?</h2>
+<p>It seems that the following is set in Intrastat Setup
+-   Default Transaction Type - the default transaction type for regular sales shipments, service shipments, and purchase receipts
+-   Default Transaction Type - Returns -  default transaction type for sales returns, service returns, and purchase returns</p>
+<h2 id="why-do-i-need-to-create-a-separate-intrastat-journal-batch-per-each-reporting-period-i-can-just-change-the-statistics-period-in-the-default-batch-and-reuse-it">Why do I need to create a separate Intrastat Journal Batch per each reporting period? I can just change the statistics period in the default batch and reuse it!</h2>
+<p>It is the best practice to use a new Intrastat Journal Batch per each reporting period, in order to have an audit trail of the data already reported. For this reason there is a possibility to mark an Intrastat Batch as Reported.</p>
+<h2 id="is-there-a-possibility-to-set-default-tariff-no-for-item-cards-otherwise-i-need-to-go-and-update-all-item-cards-with-tariff-no-before-the-system-allows-me-to-create-intrastat-journal-however-all-my-items-have-the-same-commodity-code">Is there a possibility to set Default Tariff No. for Item cards? Otherwise, I need to go and update all item cards with Tariff No. before the system allows me to create Intrastat Journal. However all my items have the same commodity code.</h2>
+<p>It is not supported by Intrastat Setup.</p>
+<h2 id="is-there-a-possibility-to-have-full-list-of-tariff-no-in-the-system">Is there a possibility to have full list of Tariff No. in the system?</h2>
+<p>Commodity codes is a large list that can be copied into Dynamics 365 Business Central from CSV file provided by Central Statistics Bureau.</p>
+<h2 id="i-was-using-transport-method-field-in-order-to-specify-the-delivery-service-companies-now-my-intrastat-reports-need-to-be-corrected-manually">I was using Transport Method field, in order to specify the delivery service companies. Now my Intrastat Reports need to be corrected manually.</h2>
+<p>Transport Method values are stipulated by Central Statistics Bureau and it is involved in Intrastat Reporting. For delivery services please use field &quot;Shipping Agent&quot; and &quot;Shipping Agent Services&quot;.
+Intrastat Report needs to be corrected manually in Intrastat Journal, once it is created..</p>
 </article>
           </div>
           
